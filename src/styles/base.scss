@@ -77,15 +77,21 @@
    }
    
    .projectSection {
-       height: 100%;
+       min-height: 100%;
        .standalone {
            margin: 40px auto;
            text-align: center;
            color: $dark;
        }
-       hr{
-           width:80%;
-           margin:auto;
+       hr {
+           width: 100px;
+           margin: auto;
+           background-color: black;
+           height: 3px;
+       }
+       .row {
+           max-width: 80%;
+           margin: auto;
        }
        .title {
            width: 100%;
@@ -96,5 +102,36 @@
            height: 80px;
            padding: 10px;
            margin: 0px
+       }
+       .gitem {
+           padding: 10px;
+           //margin-bottom: 30px;
+           h2 {
+               text-align: center;
+           }
+           img {
+               width: 80%;
+               min-width: 150px;
+               max-height: 200px;
+               min-height: 150px;
+               max-width: 200px !important;
+               @media screen and(max-width: 600px) {
+                   min-width: 125px;
+                   min-height: 125px;
+               }
+               @include border-radius(50%);
+               margin:auto;
+               display:block;
+           }
+           margin-bottom: 20px;
+           height: auto;
+           .details {
+               height: 100%;
+               width: 80%;
+               min-width: 150px;
+               max-width: 200px;
+               margin: 0px;
+               padding: 0px;
+           }
        }
    }

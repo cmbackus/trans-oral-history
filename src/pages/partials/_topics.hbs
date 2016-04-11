@@ -1,7 +1,10 @@
 <section class="galleryholder projectSection" id="topics">
+    <h2 class="standalone">Topics</h2>
+    <hr>
     <div class="row">
-        {{#each index.people}}
-        <div class="gitem col-md-4 col-xs-6"><span class="details"><h2>{{name}}</h2><h3>{{title}}</h3></span><img src="{{img}}"></div>
+        {{#each index.topics}}
+        <div class="gitem col-md-3 col-xs-6"><img src="{{tab}}">
+            <h2>{{topic}}</h2></div>
         {{/each}}
 
     </div>
