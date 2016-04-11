@@ -1,0 +1,64 @@
+{
+    "people": [
+        {
+            "name": "JoAnne Metzler"
+            , "tab": "assets/image/glimmerTab.jpg"
+            , "pic": "assets/image/glimmer1.png"
+            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+        }
+        
+        , {
+            "name": "Joane Metzlerr"
+            , "tab": "assets/image/glimmerTab.jpg"
+            , "pic": "assets/image/glimmer1.png"
+            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+        }
+
+]
+    , "projects": {
+        "title": "For Students, By Students"
+        , "contenta": "SITO is a team of Developers, Designers, and Business Analysts. Our team is composed entirely of Rochester Institute of Technology students, working to improve online academic services for current and future students. "
+        , "contentb": "We see our projects through from conception to production. Starting with students and campus personnel, we seek to understand user/client needs and find the best solution."
+        , "contentc": "We operate as a business, establish best practices, and determine the best approach for growing the organization. SITO is always planning for what is in our future. "
+        , "work": [{
+                "title": "Tiger Center"
+                , "img": "media/tigercenter.png"
+                , "href": "http://tigercenter.rit.edu/"
+                , "problem": "Navigating the online enrollment process is difficult, especially for new students and on mobile devices. It takes many clicks to get to the information students value most."
+                , "solution": "Create a friendly interface for R.I.T. s enrollment system that brings the important information to users from the first click. Make an interface which is intuitive, appealing, and easy for students to access."
+                , "dev": "The development process works closely with shiboleth and R.I.T.'s student information system to pull data into the application."
+                , "business": "The business process is ongoing, coordination with other development in the IST department, as well as organizing events and advertising for Tiger Center are included in this role."
+                , "design": "The design focuses on how to get users to their information quickly. Fewer clicks and relevant summaries are at the forefront of Tiger Center."
+    }
+
+
+
+            
+            , {
+                "title": "Team Builder"
+                , "img": "media/teambuilder.png"
+                , "href": "http://www.rit.edu/innovationcenter/teambuilder/"
+                , "problem": "The Innovation Center is a place of collaboration and inspiration for multidisciplinary teams. Projects need to be able to find interested, skilled students for their teams, and students need to find projects they are interested in working on."
+                , "solution": "Create a common meeting place for teams and team members to interact, find like-minded people, and get back to what they do best- creating innovative projects."
+                , "dev": "The development process focused on helping people and teams find each other. The interface features a tagging system for both user skills and project elements."
+                , "business": "From a Business perspective, SITO worked with the Innovation Center as a client, assessing client needs and goals based on the workflow of their existing academic program."
+                , "design": "The design features profile, projects, and people sections for multiple views of the team forming process."
+    }
+
+
+
+            
+            , {
+                "title": "Imagine R.I.T."
+                , "img": "media/imagine.png"
+                , "href": "https://www.rit.edu/imagine/proposals/"
+                , "problem": "Imagine R.I.T. is the largest campus wide event R.I.T. has to offer. With thousands of exhibitors and festival attendees, organizing space, exhibits, and publications requires a lot of coordination."
+                , "solution": "Create a way for exhibitors to register for the event, including team information, exhibit needs, and project descriptions to be published."
+                , "dev": "The development process had to handle multiple submissions, then sort information to get it to its respective stakeholders."
+                , "business": "The business process considered the coordination between different organizations which would ultimately need the collected information. For example, fms, dining services, and R.I.T publications all needed different elements of this exhibitor information."
+                , "design": "In the design process, Priority was put on streamlining the registration process. All important information was laid out for the exhibitor to optimize workflow."
+    }
+                    ]
+    }
+
+}

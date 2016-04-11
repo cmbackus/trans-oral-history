@@ -1,0 +1,29 @@
+.carouselFull {
+    min-height: 90%;
+    //background-image:url("../../media/eastman.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    h2,
+    h3 {
+        color: $dark;
+    }
+    hr {
+        @include hr($dark);
+    }
+    .infoclear {
+        background-color: rgba(0, 0, 0, 0);
+        color: $light;
+    }
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+    top: 20% !important;
+}

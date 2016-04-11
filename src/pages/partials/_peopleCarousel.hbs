@@ -1,0 +1,50 @@
+<section id="portfolio" class="projectSection">
+    <div id="projectSlide" class="carousel slide " data-ride="carousel" data-interval="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#projectSlide" data-slide-to="0" class="active"></li>
+            <li data-target="#projectSlide" data-slide-to="1"></li>
+            <li data-target="#projectSlide" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each index.people}} {{#is @index 0 }}
+            <div class="active item">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item">
+                    {{/isnt}}
+
+                    <a href={{href}} target="_blank"><img src="{{img}}" alt="{{name}}"></a>
+
+
+                    <div class="infobox infoclear">
+                        <div class="inner">
+                            <span class="col-md-6">
+                                <h3>The Story</h3>
+                                <p>{{desc}}</p>
+                            </span>
+
+                        </div>
+                    </div>
+
+                </div>
+                {{/each}}
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#projectSlide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#projectSlide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+    </div>
+    <hr>
+
+</section>
