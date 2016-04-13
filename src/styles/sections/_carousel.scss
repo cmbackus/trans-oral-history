@@ -18,6 +18,15 @@
     }
 }
 
+.slideInfo {
+    max-width: 60%;
+    margin: auto;
+    h3 {
+        font-size: 48px;
+        text-transform: uppercase;
+    }
+}
+
 .carousel-control.left,
 .carousel-control.right {
     background-image: none !important;
@@ -25,5 +34,5 @@
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
-    top: 20% !important;
+    top: 50% !important;
 }

@@ -4,35 +4,116 @@
             "name": "JoAnne Metzler"
             , "tab": "media/placeholderTab.jpg"
             , "pic": "assets/image/glimmer1.png"
-            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }, {
+                "title": "Finding Community"
+                , "hook": "In 1989, Metzler joined the CD Network, where she met Pam Barres. Despite the support she received from her friends in the group, she was not ready to come out to her wife and end her marriage. Terrified, she vanished from the community in 1995."
+                , "fullText": ""
+            }, {
+                "title": "Transitioning at Work"
+                , "hook": "Metzler discusses the process of transitioning at Nixon Peabody, beginning with a life saving decision in August of 1999 and ending with her first day at work as JoAnne in February 2000. "
+                , "fullText": ""
+            }, {
+                "title": "GENDA"
+                , "hook": "Metzler discusses the Gender Expression Non-Discrimination Act (GENDA) and politics surrounding trans activism.  "
+                , "fullText": ""
+            }, {
+                "title": "Visibility"
+                , "hook": "Reflecting on the past two decades of involvement in the trans community, Metzler identifies visibility as her top priority. She describes struggles shared by every community member she met since 1997 and argues that visibility for trans people is vital."
+                , "fullText": ""
+            }, {
+                "title": "A Planetary Shift"
+                , "hook": "Metzler describes the recent meteoric rise of transgender visibility and support for transgender rights, on a local scale as well as a nationally."
+                , "fullText": ""
+            }]
+
         }, {
-            "name": "Joane Metzlerr"
+            "name": "Karen Anne Bills"
             , "tab": "media/placeholderTab.jpg"
             , "pic": "assets/image/glimmer1.png"
-            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }]
         }, {
-            "name": "JoAnne Metzler"
+            "name": "Pam Barres"
             , "tab": "media/placeholderTab.jpg"
             , "pic": "assets/image/glimmer1.png"
-            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }]
         }, {
-            "name": "Joane Metzlerr"
+            "name": "Maur DeLaney"
             , "tab": "media/placeholderTab.jpg"
             , "pic": "assets/image/glimmer1.png"
-            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
-        }, {
-            "name": "JoAnne Metzler"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-        }, {
-            "name": "Joane Metzlerr"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }]
         }
 
-]
+        
+        , {
+            "name": "Sam Waters"
+            , "tab": "media/placeholderTab.jpg"
+            , "pic": "assets/image/glimmer1.png"
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }]
+        }, {
+            "name": "Shauna O'Toole"
+            , "tab": "media/placeholderTab.jpg"
+            , "pic": "assets/image/glimmer1.png"
+            , "slides": [{
+                "title": "Biography"
+                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+                , "fullText": ""
+            }, {
+                "title": "Early Coming Out"
+                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
+                , "fullText": ""
+            }]
+        }
+
+            ]
+
+
+
+
+
+
+
+
+    
     , "topics": [
         {
             "topic": "Finding Community"
@@ -57,6 +138,15 @@
         }
 
 ]
+
+
+
+
+
+
+
+
+    
     , "team": [
         {
             "name": "Ben Eshlemen"
