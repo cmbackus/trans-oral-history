@@ -1,5 +1,6 @@
 .carouselFull {
     min-height: 90%;
+    max-height: 900px;
     //background-image:url("../../media/eastman.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,14 +17,30 @@
         background-color: rgba(0, 0, 0, 0);
         color: $light;
     }
+    .carousel-inner {
+        min-height: 600px;
+    }
 }
 
 .slideInfo {
-    max-width: 60%;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 32, 240, 0.6);
+    color: #ffffff;
+    z-index: 2;
     h3 {
-        font-size: 48px;
+        font-size: 36px;
         text-transform: uppercase;
+        text-align: center;
+    }
+    p {
+        color: #ffffff;
+    }
+    .slideContent {
+        margin: auto;
+        max-width: 60%;
+        overflow: hidden;
+        padding-top:15%;
     }
 }
 
@@ -35,4 +52,21 @@
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
     top: 50% !important;
+}
+
+.layer {
+    background-color: rgba(160, 32, 240, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.fullbg {
+    min-height: 90%;
+    max-height: 900px;
+    position: relative;
+    z-index: -1
 }

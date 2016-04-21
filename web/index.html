@@ -10,19 +10,13 @@
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
+
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
 
-        <nav>
-            <ul class="navigation">
-                <li id="aboutLink"><a href="about.html">About</a></li>
-                <li><a href="facet.html">Work</a></li>
-                <li><a href="assets/CharlesBackusResume.pdf" target="_blank"> Resume</a></li>
-            </ul>
-        </nav>
 
 
     </header>
@@ -44,13 +38,13 @@
         <!-- all navbar content built to work for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="navHeaderCollapse">
             <ul class="nav navbar-default navbar-nav">
-                <li id="work"><a href="#people" class="select nav-text">People</a></li>
+                <li id="people"><a href="#people" class="select nav-text">People</a></li>
                 <li id="what"><a href="#topics" class="select nav-text">Topics</a></li>
                 <li id="who"><a href="#timeline" class="select nav-text">Timeline</a></li>
-                <li id="con"><a href="#analyses" class="select nav-text">Analyses</a></li>
+                <li id="con"><a href="#analysis" class="select nav-text">Analysis</a></li>
                 <li id="who"><a href="#sources" class="select nav-text">Sources</a></li>
                 <li id="con"><a href="#glossary" class="select nav-text">Glossary</a></li>
-                <li id="con"><a href="#glossary" class="select nav-text">The Team</a></li>
+                <li id="con"><a href="#team" class="select nav-text">The Team</a></li>
             </ul>
         </div>
     </div>
@@ -59,27 +53,27 @@
     <hr>
     <div class="row">
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=metzler><img src="media/placeholderTab.jpg">
             <h2>JoAnne Metzler</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=><img src="media/placeholderTab.jpg">
             <h2>Karen Anne Bills</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=barres><img src="media/placeholderTab.jpg">
             <h2>Pam Barres</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=delaney><img src="media/placeholderTab.jpg">
             <h2>Maur DeLaney</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=waters><img src="media/placeholderTab.jpg">
             <h2>Sam Waters</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6"><img src="media/placeholderTab.jpg">
+        <div class="gitem col-md-3 col-xs-6" id=otoole><img src="media/placeholderTab.jpg">
             <h2>Shauna O&#x27;Toole</h2></div>
         
 
     </div>
-</section><section id="portfolio" class="projectSection">
+</section><section id="metzlerSection" class="projectSection">
     <div id="projectSlide" class="carousel slide " data-ride="carousel" data-interval="false">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -91,120 +85,148 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
              
-            <div class="active item">
+            <div class="active item fullbg" style="background: url(media/JoAnne_Intro_Reg.png) no-repeat center center fixed;)  ">
                  
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>Biography</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s </p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>Biography</h3> 
+
+                                    <p>JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_ComingOut_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>Early Coming Out</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. </p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>Early Coming Out</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889393&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p>Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_Community_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>Finding Community</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>In 1989, Metzler joined the CD Network, where she met Pam Barres. Despite the support she received from her friends in the group, she was not ready to come out to her wife and end her marriage. Terrified, she vanished from the community in 1995.</p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>Finding Community</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p> In 1989, Metzler joined the CD Network, where she met Pam Barres. Despite the support she received from her friends in the group, she was not ready to come out to her wife and end her marriage. Terrified, she vanished from the community in 1995. </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_AtWork_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>Transitioning at Work</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>Metzler discusses the process of transitioning at Nixon Peabody, beginning with a life saving decision in August of 1999 and ending with her first day at work as JoAnne in February 2000. </p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>Transitioning at Work</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889674&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p>Metzler discusses the process of transitioning at Nixon Peabody, beginning with a life saving decision in August of 1999 and ending with her first day at work as JoAnne in February 2000.  </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_GENDA_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>GENDA</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>Metzler discusses the Gender Expression Non-Discrimination Act (GENDA) and politics surrounding trans activism.  </p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>GENDA</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889680&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p>Metzler discusses the Gender Expression Non-Discrimination Act (GENDA) and politics surrounding trans activism.  </p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_Visibility_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>Visibility</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>Reflecting on the past two decades of involvement in the trans community, Metzler identifies visibility as her top priority. She describes struggles shared by every community member she met since 1997 and argues that visibility for trans people is vital.</p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>Visibility</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889671&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p>Reflecting on the past two decades of involvement in the trans community, Metzler identifies visibility as her top priority. She describes struggles shared by every community member she met since 1997 and argues that visibility for trans people is vital.</p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                   
-                <div class="item">
+                <div class="item fullbg" style="background: url(media/JoAnne_Planetary_Reg.png) no-repeat center center fixed;)  ">
+
                     
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>A Planetary Shift</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>Metzler describes the recent meteoric rise of transgender visibility and support for transgender rights, on a local scale as well as a nationally.</p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>A Planetary Shift</h3>  <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889676&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe> 
+
+                                    <p>Metzler describes the recent meteoric rise of transgender visibility and support for transgender rights, on a local scale as well as a nationally.</p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                 
 
             </div>
+
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#projectSlide" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -335,6 +357,7 @@
 </section><section id="work" class="other">
     <h1>Footer Text</h1>
 </section>
+    <script type="text/javascript" src="js/carouselToggle.js"></script>
 </body>
 
 </html>

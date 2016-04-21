@@ -4,7 +4,6 @@
    @import 'sections/base';
    * {
        font-family: 'myriad pro', sans-serif, serif;
-       color: #333;
    }
    
    h1 {
@@ -134,4 +133,8 @@
                padding: 0px;
            }
        }
+   }
+   
+   .hideSection {
+       display: none;
    }

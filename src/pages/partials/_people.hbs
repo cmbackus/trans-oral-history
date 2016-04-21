@@ -2,8 +2,8 @@
     <h2 class="standalone">People</h2>
     <hr>
     <div class="row">
-        {{#each index.people}}
-        <div class="gitem col-md-3 col-xs-6"><img src="{{tab}}">
+        {{#each persons.people}}
+        <div class="gitem col-md-3 col-xs-6" id={{id}}><img src="{{tab}}">
             <h2>{{name}}</h2></div>
         {{/each}}
 

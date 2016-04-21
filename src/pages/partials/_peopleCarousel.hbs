@@ -1,4 +1,4 @@
-<section id="portfolio" class="projectSection">
+<section id="metzlerSection" class="projectSection">
     <div id="projectSlide" class="carousel slide " data-ride="carousel" data-interval="false">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -9,27 +9,32 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            {{#each index.people.[0].slides}} {{#is @index 0 }}
-            <div class="active item">
+            {{#each persons.people.[0].slides}} {{#is @index 0 }}
+            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
                 {{/is}} {{#isnt @index 0 }}
-                <div class="item">
+                <div class="item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+
                     {{/isnt}}
 
                     <div class="infobox infoclear">
                         <div class="inner">
                             <div class="slideInfo">
-                                <h3><b>JoAnne Metzler </b>{{title}}</h3>
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62736683&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                                <p>{{hook}}</p>
+                                <div class="slideContent">
+                                    <h3><b>JoAnne Metzler </b>{{title}}</h3> {{#isnt @index 0 }} {{{iframe}}} {{/isnt}}
+
+                                    <p>{{hook}}</p>
+                                </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--<div class="layer"></div> -->
 
                 </div>
                 {{/each}}
 
             </div>
+
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#projectSlide" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

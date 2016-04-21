@@ -1,44 +1,44 @@
 module.exports = function (grunt) {
     // Project configuration.
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-        assemble: {
+        pkg: grunt.file.readJSON('package.json')
+        , assemble: {
             options: {
-                layout: "src/layouts/default.hbs",
-                partials: ['src/pages/partials/**/*.md'],
-                flatten: true
-            },
-            pages: {
+                layout: "src/layouts/default.hbs"
+                , partials: ['src/pages/partials/**/*.md']
+                , flatten: true
+            }
+            , pages: {
                 options: {
-                    partials: ['src/pages/partials/**/*.hbs'],
-                    data: ['src/data/index.json']
-                },
-                files: {
+                    partials: ['src/pages/partials/**/*.hbs']
+                    , data: ['src/data/*.json']
+                }
+                , files: {
                     'web/': ['src/pages/*.hbs']
                 }
             }
-        },
-        clean: {
+        }
+        , clean: {
             all: ['web/*.html']
-        },
-        sass: {
+        }
+        , sass: {
             dist: {
                 options: {
                     style: 'compressed'
-                },
-                files: {
-                    './web/css/base.css': './src/styles/base.scss',
                 }
+                , files: {
+                    './web/css/base.css': './src/styles/base.scss'
+                , }
             }
-        },
-        watch: {
+        }
+        , watch: {
             css: {
-                files: ['src/styles/**/*.scss'],
-                tasks: ['sass:dist']
-            },
-            assemble: {
-                files: ['src/pages/*.hbs'],
-                tasks: ['assemble']
+                files: ['src/styles/**/*.scss']
+                , tasks: ['sass:dist']
+            }
+            , assemble: {
+                files: ['src/pages/*.hbs']
+                , tasks: ['assemble']
             }
         }
 
