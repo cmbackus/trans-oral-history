@@ -1,162 +1,7 @@
 {
-    "people": [
-        {
-            "id": "metzler"
-            , "name": "JoAnne Metzler"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "pic": "media/JoAnne_ComingOut_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
 
 
-                
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-
-                
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "pic": "media/JoAnne_ComingOut_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-
-
-                
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }, {
-                "title": "Finding Community"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-
-
-                
-                , "pic": "media/JoAnne_ComingOut_Purple.png"
-                , "hook": "In 1989, Metzler joined the CD Network, where she met Pam Barres. Despite the support she received from her friends in the group, she was not ready to come out to her wife and end her marriage. Terrified, she vanished from the community in 1995."
-                , "fullText": ""
-            }, {
-                "title": "Transitioning at Work"
-                , "pic": "media/JoAnne_AtWork_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-                , "hook": "Metzler discusses the process of transitioning at Nixon Peabody, beginning with a life saving decision in August of 1999 and ending with her first day at work as JoAnne in February 2000. "
-                , "fullText": ""
-            }, {
-                "title": "GENDA"
-                , "pic": "media/JoAnne_GENDA_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-                , "hook": "Metzler discusses the Gender Expression Non-Discrimination Act (GENDA) and politics surrounding trans activism.  "
-                , "fullText": ""
-            }, {
-                "title": "Visibility"
-                , "pic": "media/JoAnne_Visibility_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-                , "hook": "Reflecting on the past two decades of involvement in the trans community, Metzler identifies visibility as her top priority. She describes struggles shared by every community member she met since 1997 and argues that visibility for trans people is vital."
-                , "fullText": ""
-            }, {
-                "title": "A Planetary Shift"
-                , "pic": "media/JoAnne_Planetary_Purple.png"
-                , "iframe": "<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>"
-
-
-
-
-                
-                , "hook": "Metzler describes the recent meteoric rise of transgender visibility and support for transgender rights, on a local scale as well as a nationally."
-                , "fullText": ""
-            }]
-
-        }, {
-            "name": "Karen Anne Bills"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }]
-        }, {
-            "id": "barres"
-            , "name": "Pam Barres"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }]
-        }, {
-            "id": "delaney"
-            , "name": "Maur DeLaney"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }]
-        }
-
-
-
-
-
-
-
-
-
-        
-        , {
-            "id": "waters"
-            , "name": "Sam Waters"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }]
-        }, {
-            "id": "otoole"
-            , "name": "Shauna O'Toole"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "slides": [{
-                "title": "Biography"
-                , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-                , "fullText": ""
-            }, {
-                "title": "Early Coming Out"
-                , "hook": "Metzler recounts first coming out as transsexual to her family and therapist in 1974. While dressed as her female alter-ego, Debbie Dumont Scott, she reconnected with Mark, her ex-lover from prep school. Despite the idealistic plans she had made with Mark to become a woman and build a life with her lover, her transsexual identity was not met with support by her family or her therapist, and she became severely depressed. "
-                , "fullText": ""
-            }]
-        }
-
-            ]
-
-
-
-
-
-
-
-    
-    , "topics": [
+    "topics": [
         {
             "topic": "Finding Community"
             , "tab": "media/placeholderTab.jpg"
@@ -180,23 +25,14 @@
         }
 
 ]
-
-
-
-
-
-
-
-
-    
     , "team": [
         {
-            "name": "Ben Eshlemen"
+            "name": "Ben Eshleman"
             , "tab": "media/placeholderTab.jpg"
             , "title": "Digital Humanities"
             , "website": "www.placeholder.com"
         }, {
-            "name": "Jess Whitley"
+            "name": "Jess Wiltey"
             , "tab": "media/placeholderTab.jpg"
             , "title": "New Media Design"
             , "website": "www.placeholder.com"
@@ -204,7 +40,21 @@
             "name": "Charlie Backus"
             , "tab": "media/placeholderTab.jpg"
             , "title": "New Media Developer"
-            , "website": "www.placeholder.com"
+            , "website": "www.cbackus.com"
+        }
+        
+        , {
+            "name": "Maxwell Harvey-Sampson"
+            , "tab": "media/placeholderTab.jpg"
+            , "title": "Photography"
+            , "website": "Maxwellharvey-sampson.com"
+        }
+        
+        , {
+            "name": "Dr. Tamar Carroll"
+            , "tab": "media/placeholderTab.jpg"
+            , "title": "Faculty Advisor"
+            , "website": "Tamarcarrol.com"
         }
 
 ]

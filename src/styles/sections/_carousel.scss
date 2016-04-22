@@ -28,6 +28,7 @@
     background-color: rgba(160, 32, 240, 0.6);
     color: #ffffff;
     z-index: 2;
+    position: relative;
     h3 {
         font-size: 36px;
         text-transform: uppercase;
@@ -40,7 +41,7 @@
         margin: auto;
         max-width: 60%;
         overflow: hidden;
-        padding-top:15%;
+        padding-top: 15%;
     }
 }
 
@@ -54,9 +55,20 @@
     top: 50% !important;
 }
 
+.projectSection .close {
+    position: fixed;
+    top: 100;
+    left: 100;
+    z-index: 3;
+}
+
+.carouselSection {
+    position: relative;
+}
+
 .layer {
     background-color: rgba(160, 32, 240, 0.7);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
