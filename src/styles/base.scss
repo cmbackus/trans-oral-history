@@ -78,10 +78,20 @@
    .projectSection {
        padding-top: 75px;
        min-height: 90%;
+       .inverted {
+           color: #ffffff;
+           background-color: $purple-full;
+           .standalone {
+               color: #ffffff;
+           }
+           hr {
+               background-color: #ffffff;
+           }
+       }
        .standalone {
+           font-family: 'Neutra Display Titling';
            margin: 40px auto;
            text-align: center;
-           color: $dark;
        }
        hr {
            width: 100px;
@@ -107,7 +117,9 @@
            padding: 10px;
            //margin-bottom: 30px;
            text-align: center;
-           h2 {}
+           h2 {
+               font-family: 'Neutra Text-Book Alt';
+           }
            img {
                width: 80%;
                min-width: 150px;

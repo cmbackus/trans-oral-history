@@ -1,0 +1,38 @@
+{
+    "topics": [
+        {
+            "topic": "Finding Community"
+            , "tab": "media/icons_Community.png"
+            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+        }, {
+            "topic": "Transitioning in Workplace"
+            , "tab": "media/icons_Workplace.png"
+            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+        }, {
+            "topic": "Health Care"
+            , "tab": "media/icons_Healthcare.png"
+            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
+        }, {
+            "topic": "Political Inolvement"
+            , "tab": "media/icons_Politics.png"
+            , "pic": "assets/image/glimmer1.png"
+            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+        }
+
+
+
+      
+        , {
+            "topic": "Transparenthood"
+            , "tab": "media/icons_Parenthood.png"
+            , "pic": "assets/image/glimmer1.png"
+            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+        }, {
+            "topic": "Visibility"
+            , "tab": "media/icons_Visibility.png"
+            , "pic": "assets/image/glimmer1.png"
+            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
+        }
+
+]
+}

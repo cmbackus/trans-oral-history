@@ -1,31 +1,8 @@
 {
 
 
-    "topics": [
-        {
-            "topic": "Finding Community"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-        }, {
-            "topic": "Trans in the Workplace"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
-        }, {
-            "topic": "Health"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "hook": "JoAnne Metzler has been heavily involved in the Rochester transgender community since 1989. In the following sections, she describes her personal development and reflects on the enormous changes she has witnessed since first coming out in the 1970s "
-        }, {
-            "topic": "Terminoligy"
-            , "tab": "media/placeholderTab.jpg"
-            , "pic": "assets/image/glimmer1.png"
-            , "desc": "Catch fireflies until you have enough to brighten the scene.Built using HTML5 Canvas, this web app utilizes JS Module pattern. Nature simulation in the form of firefly movement was implemented. "
-        }
 
-]
-    , "team": [
+    "team": [
         {
             "name": "Ben Eshleman"
             , "tab": "media/placeholderTab.jpg"
@@ -42,6 +19,9 @@
             , "title": "New Media Developer"
             , "website": "www.cbackus.com"
         }
+
+
+
         
         , {
             "name": "Maxwell Harvey-Sampson"
@@ -49,6 +29,9 @@
             , "title": "Photography"
             , "website": "Maxwellharvey-sampson.com"
         }
+
+
+
         
         , {
             "name": "Dr. Tamar Carroll"
