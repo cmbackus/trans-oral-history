@@ -1,4 +1,21 @@
 {
+    "intro": [
+        {
+            "pic": "media/JoAnne_Visibility.png"
+            , "title": "Trans Rochester Speaks"
+            , "subtitle": "A dialogue in community history"
+            , "hook": "By drawing together voices of trans activists and advocates, this project seeks to recover the history of Rochester’s transgender community."
+        }, {
+            "pic": "media/JoAnne_Visibility.png"
+            , "hook": "In recent years, transgender issues have become a popular topic in mainstream media. With trans advocate Laverne Cox gracing the cover in 2014, Time Magazine proudly declared the struggle for transgender liberation “The Next Civil Rights Frontier.” This rhetoric, fueled by sudden increase in representation, has lead many to think of transgender issues as the next big thing for LGBT rights. Not only does this language erase the idea of transgender history, but it also immediately quells any discussion of it. As transgender people and the struggles they face become more recognizable, it is vital that we also recognize the long history that has come before. "
+        }, {
+            "pic": "media/JoAnne_Visibility.png"
+            , "hook": "This project documents and preserves transgender history in Rochester, New York through oral history. Oral history is the practice of using people’s experiences, their personal stories and their own words as a primary source. This type of research provides powerful reflections of the past, contrasting objective statistical analysis. Rooted directly in people’s lives, oral history honors stories, experiences, and voices.</br>While this project provides an introduction to transgender history in Rochester, it does not encompass the whole narrative. This is only the beginning of the conversation. "
+        }, {
+            "pic": "media/JoAnne_Visibility.png"
+            , "hook": "The following dialogues with transgender Rochesterians illustrate agency. Their stories show ways in which people formed connections, built communities, and provided resources for future generations. Most importantly, these dialogues emphasize the contributions that transgender people have made in the city they call home. Transgender people have always been, and will continue to be, a vital part of Rochester’s history. "
+        }
+     ],
 
 
 
@@ -22,6 +39,11 @@
 
 
 
+
+
+
+
+
         
         , {
             "name": "Maxwell Harvey-Sampson"
@@ -29,6 +51,11 @@
             , "title": "Photography"
             , "website": "Maxwellharvey-sampson.com"
         }
+
+
+
+
+
 
 
 

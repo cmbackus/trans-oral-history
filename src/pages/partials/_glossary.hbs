@@ -1,11 +1,61 @@
-<section class="galleryholder projectSection" id="glossary">
+<section id="glossary" class="projectSection glossarySection">
     <h2 class="standalone">Glossary</h2>
-    <hr>
-    <div class="row">
-        {{#each index.people}}
-        <div class="gitem col-md-3 col-xs-6"><img src="{{tab}}">
-            <h2>{{name}}</h2></div>
-        {{/each}}
+    <div id="glossarySlide" class="carousel slide " data-ride="carousel" data-interval="false">
+        <!-- Indicators 
+        <ol class="carousel-indicators">
+            <li data-target="#{{id}}Slide" data-slide-to="0" class="active"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="1"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="2"></li>
+        </ol>-->
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each glossaryList.definitions}} {{#is @index 0 }}
+            <div class="active item">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item ">
+
+                    {{/isnt}}
+
+                    <div class="infobox infoclear">
+
+                        <div class="inner">
+                            <div class="slideInfo">
+
+                                <div class="slideContent">
+                                    <h3>{{title}}</h3>
+                                    <p>{{{definition}}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--<div class="layer"></div> -->
+
+                </div>
+                {{/each}}
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#glossarySlide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#glossarySlide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
     </div>
+
+    <div class="termHolder ">
+        {{#each glossaryList.definitions}}
+        <div class="col-md-2 glossaryLink" data-id="{{@index}}">
+            <p>{{title}}</p>
+        </div> {{/each}}
+    </div>
+
+
+
 </section>

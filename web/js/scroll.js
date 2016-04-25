@@ -1,18 +1,10 @@
 $(document).ready(function () {
     var menu = $('#nav');
-    var origOffsetY = 0 //$(window).height();
+    var origOffsetY = 200 //$(window).height();
 
 
     function scroll() {
-        if ($(window).scrollTop() >= origOffsetY) {
-            $('#nav').addClass('navbar-fixed-top');
-            console.log("made fixed");
-            //$('.content').addClass('menu-padding');
-        } else {
-            $('#nav').removeClass('navbar-fixed-top');
-            //$('.content').removeClass('menu-padding');
-            console.log("made static");
-        }
+
 
 
     }

@@ -1,5 +1,5 @@
 {{#each persons.people}}
-<section id="{{id}}Section" class="projectSection carouselSection hideSection">
+<section id="{{id}}Section" class="projectSection carouselSection peopleCarouselSection hideSection">
 
     <div id="{{id}}Slide" class="carousel slide " data-ride="carousel" data-interval="false">
         <!-- Indicators 
@@ -25,7 +25,6 @@
 
                                 <div class="slideContent">
                                     <h3><span class="name">{{../name}} </span>{{title}}</h3> {{#isnt @index 0 }} {{/isnt}}
-
                                     <p>{{{hook}}}</p>
                                 </div>
                             </div>

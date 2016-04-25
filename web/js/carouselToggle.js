@@ -1,5 +1,25 @@
 var personIds = ["metzler", "bills", "delaney", "barres", "waters", "otoole", "archived"];
 
+
+//glossary carousel
+
+$('.glossaryLink').click(function (e) {
+    // console.log($(this).data('id'));
+
+    $('#glossarySlide').carousel($(this).data('id'));
+
+
+})
+
+
+
+
+
+
+
+
+
+//people carousel
 /*for (var i = 0; i > personIds; i++) {
     $('#' + personIds[i]).click(function () {
         console.log(personIds[i] + " clicked")
@@ -66,7 +86,7 @@ $('#archived').click(function () {
 })
 $('.personClose').click(function () {
     console.log("close clicked")
-    $('.carouselSection').addClass("hideSection")
+    $('.PeopleCarouselSection').addClass("hideSection")
     $('#people').removeClass("hideSection")
 
 })

@@ -10,7 +10,7 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            {{#each slides}} {{#is @index 0 }}
+            {{#each index.intro}} {{#is @index 0 }}
             <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
                 {{/is}} {{#isnt @index 0 }}
                 <div class="item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
@@ -23,7 +23,9 @@
                             <div class="slideInfo">
 
                                 <div class="slideContent">
-                                    <h3>{{title}}</h3> {{#isnt @index 0 }} {{/isnt}}
+                                    {{#is @index 0 }}
+                                    <h3>{{title}}</h3>{{subtitle}}
+                                    <h4></h4> {{/is}}
 
                                     <p>{{{hook}}}</p>
                                 </div>
@@ -54,4 +56,3 @@
 
 
 </section>
-{{/each}}
