@@ -1,0 +1,45 @@
+<section id="testSection" class="projectSection carouselSection peopleCarouselSection ">
+
+    <div id="testSlide" class="carousel slide " data-ride="carousel" data-interval="false">
+        <!-- Indicators 
+        <ol class="carousel-indicators">
+            <li data-target="#{{id}}Slide" data-slide-to="0" class="active"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="1"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="2"></li>
+        </ol>-->
+        <span class="close glyphicon glyphicon-remove personClose"></span>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            {{#each persons.people.[0].slides}} {{#is @index 0 }}
+            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+
+                    {{/isnt}}
+
+
+
+
+
+                </div>
+                {{/each}}
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#testSlide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#testSlide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+
+
+</section>

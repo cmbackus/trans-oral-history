@@ -1,0 +1,60 @@
+{{#each topicsList.topics}}
+<section id="{{id}}Section" class="projectSection carouselSection topicCarouselSection hideSection">
+
+    <div id="{{id}}Slide" class="carousel slide " data-ride="carousel" data-interval="false">
+        <!-- Indicators 
+        <ol class="carousel-indicators">
+            <li data-target="#{{id}}Slide" data-slide-to="0" class="active"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="1"></li>
+            <li data-target="#{{id}}Slide" data-slide-to="2"></li>
+        </ol>-->
+        <span class="close glyphicon glyphicon-remove topicClose"></span>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each slides}} {{#is @index 0 }}
+            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+
+                    {{/isnt}}
+
+                    <div class="infobox infoclear">
+
+                        <div class="inner">
+                            <div class="slideInfo">
+
+                                <div class="slideContent">
+                                    <h3><span class="name">{{../topic}} </span>  {{#isnt @index 0 }}
+                                    {{title}}{{/isnt}}
+                                        </h3>
+
+                                    <p>{{{hook}}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--<div class="layer"></div> -->
+
+                </div>
+                {{/each}}
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#{{id}}Slide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#{{id}}Slide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+
+
+</section>
+{{/each}}

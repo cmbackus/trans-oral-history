@@ -69,13 +69,13 @@ $('#delaney').click(function () {
 
 })
 $('#waters').click(function () {
-
+    $('#watersSlide').carousel(0);
     $('#watersSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#otoole').click(function () {
-    $('#watersSlide').carousel(0);
+    $('#otooleSlide').carousel(0);
     $('#otooleSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
