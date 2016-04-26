@@ -1,5 +1,5 @@
 {{#each persons.people}}
-<section id="{{id}}Section" class="projectSection carouselSection peopleCarouselSection hideSection">
+<section id="{{id}}Section" class="projectSection carouselSection peopleCarouselSection hideSection ">
 
     <div id="{{id}}Slide" class="carousel slide " data-ride="carousel" data-interval="false">
         <!-- Indicators 
@@ -11,6 +11,7 @@
         <span class="close glyphicon glyphicon-remove personClose"></span>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
+            <button class="refreshIframe">Refresh Iframe</button>
             {{#each slides}} {{#is @index 0 }}
             <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
                 {{/is}} {{#isnt @index 0 }}
@@ -21,12 +22,17 @@
                     <div class="infobox infoclear">
 
                         <div class="inner">
-                            <div class="slideInfo">
+                            <div class="inner">
+                                <div class="slideInfo">
 
-                                <div class="slideContent">
-                                    <h3><span class="name">{{../name}} </span>{{title}}</h3> {{#isnt @index 0 }} {{/isnt}}
-                                    <p>{{{hook}}}</p>
+                                    <div class="slideContent">
+                                        <h3><span class="name">{{../name}} </span>  {{#isnt @index 0 }}
+                                    {{title}}{{/isnt}}
+                                        </h3> {{{iframe}}}
+                                        <p>{{{hook}}}</p>
+                                    </div>
                                 </div>
+
                             </div>
 
                         </div>

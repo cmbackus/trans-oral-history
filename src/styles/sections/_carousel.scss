@@ -48,6 +48,10 @@
         color: #ffffff;
         z-index: 2;
         position: relative;
+        iframe {
+            width: 100%;
+            margin:auto;
+        }
         h3 {
             font-size: 36px;
             text-transform: uppercase;
@@ -86,6 +90,11 @@
     top: 100;
     left: 100;
     z-index: 4;
+    color: #eee;
+}
+
+.projectSection .close:hover {
+    color: #fff
 }
 
 .carouselSection {
@@ -98,7 +107,6 @@
     min-height: 90%;
     max-height: 900px;
     position: relative;
-    z-index: -1;
     //background-color: rgba(50,0,75, 0.6);
     //background-blend-mode: multiply;
 }

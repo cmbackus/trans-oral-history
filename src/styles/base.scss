@@ -74,20 +74,21 @@
        width: 100%;
        overflow: hidden;
    }
+   
    .reverseColor {
+       color: #ffffff;
+       background-color: $purple-full;
+       .standalone {
            color: #ffffff;
-           background-color: $purple-full;
-           .standalone {
-               color: #ffffff;
-           }
-           hr {
-               background-color: #ffffff;
-           }
        }
+       hr {
+           background-color: #ffffff;
+       }
+   }
+   
    .projectSection {
        padding-top: 75px;
        min-height: 90%;
-       
        .standalone {
            font-family: 'Neutra Display Titling';
            margin: 40px auto;

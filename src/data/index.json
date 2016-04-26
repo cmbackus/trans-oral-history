@@ -37,13 +37,6 @@
             , "website": "www.cbackus.com"
         }
 
-
-
-
-
-
-
-
         
         , {
             "name": "Maxwell Harvey-Sampson"
@@ -52,19 +45,11 @@
             , "website": "Maxwellharvey-sampson.com"
         }
 
-
-
-
-
-
-
-
-        
         , {
             "name": "Dr. Tamar Carroll"
             , "tab": "media/placeholderTab.jpg"
             , "title": "Faculty Advisor"
-            , "website": "Tamarcarrol.com"
+            , "website": "Tamarcarroll.com"
         }
 
 ]
