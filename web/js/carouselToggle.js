@@ -43,30 +43,27 @@ $('.refreshIframe').click(function () {
 $('#metzler').click(function () {
     //$('iframe').attr('src', $('iframe').attr('src'));
     console.log("metzler clicked")
+    $('#metzlerSlide').carousel(0);
     $('#metzlerSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
-$('#metzler').click(function () {
 
-    $('#metzlerSection').removeClass("hideSection")
-    $('#people').addClass("hideSection")
-
-})
 $('#bills').click(function () {
     console.log("metzler clicked")
+    $('#billsSlide').carousel(0);
     $('#billsSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#barres').click(function () {
-    console.log("metzler clicked")
+    $('#barresSlide').carousel(0);
     $('#barresSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#delaney').click(function () {
-
+    $('#delaneySlide').carousel(0);
     $('#delaneySection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -78,13 +75,13 @@ $('#waters').click(function () {
 
 })
 $('#otoole').click(function () {
-
+    $('#watersSlide').carousel(0);
     $('#otooleSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#archived').click(function () {
-
+    $('#archivedSlide').carousel(0);
     $('#archivedSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -104,37 +101,37 @@ $('.topicClose').click(function () {
 })
 
 $('#community').click(function () {
-
+    $('#communitySlide').carousel(0);
     $('#communitySection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#workplace').click(function () {
-
+    $('#workplaceSlide').carousel(0);
     $('#workplaceSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#healthcare').click(function () {
-
+    $('#healthcareSlide').carousel(0);
     $('#healthcareSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#political').click(function () {
-
+    $('#politicalSlide').carousel(0);
     $('#politicalSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#transparenthood').click(function () {
-
+    $('#transparenthoodSlide').carousel(0);
     $('#transparenthoodSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#visibility').click(function () {
-
+    $('#visibilitySlide').carousel(0);
     $('#visibilitySection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
