@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    //$('iframe')[0].stop();
     var menu = $('#nav');
     var origOffsetY = 200 //$(window).height();
 
@@ -11,6 +12,10 @@ $(document).ready(function () {
 
     document.onscroll = scroll;
     $(".nav a").on("click", function () {
+        $('.PeopleCarouselSection').addClass("hideSection")
+        $('#people').removeClass("hideSection")
+        $('.TopicCarouselSection').addClass("hideSection")
+        $('#topics').removeClass("hideSection")
         $(".nav").find(".active").removeClass("active");
         $(this).parent().addClass("active");
     });

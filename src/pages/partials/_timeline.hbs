@@ -1,8 +1,50 @@
-<section class="galleryholder projectSection" id="timeline">
+<section class="galleryholder projectSection glossarySection" id="timeline">
     <h2 class="standalone">Timeline</h2>
     <hr>
+    <div id="timelineSlide" class="carousel slide " data-ride="carousel" data-interval="false">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each timelineList.definitions}} {{#is @index 0 }}
+            <div class="active item">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item ">
+
+                    {{/isnt}}
+
+                    <div class="infobox infoclear">
+
+                        <div class="inner">
+                            <div class="slideInfo">
+
+                                <div class="slideContent">
+                                    <h3 class="col-md-4">{{title}}</h3>
+                                    <p class="col-md-8">{{{definition}}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--<div class="layer"></div> -->
+
+                </div>
+                {{/each}}
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#timelineSlide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#timelineSlide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
     <div class="row">
-        <p>Timeline body intro text or whatever goes here. Timeline body intro text or whatever goes here. Timeline body intro text or whatever goes here. Timeline body intro text or whatever goes here.</p>
+
         <div id="visualization"></div>
     </div>
 </section>

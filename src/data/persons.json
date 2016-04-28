@@ -57,7 +57,7 @@
         }, {
             "id": "bills"
             , "name": "Karen Anne Bills"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Karen_Profile.png"
             , "slides": [{
                 "title": "Biography"
                 , "pic": "media/Karen_Intro.png"
@@ -196,7 +196,7 @@
         }, {
             "id": "waters"
             , "name": "Sam Waters"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Sam_Profile.png"
             , "pic": "assets/image/glimmer1.png"
             , "slides": [{
                 "title": "Biography"

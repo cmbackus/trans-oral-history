@@ -14,6 +14,16 @@
     }
 }
 
+#timelineSlide {
+    h3 {
+        color: $purple-full;
+        font-family: 'Neutra Display Titling';
+    }
+    .glyphicon {
+        color: $purple-full;
+    }
+}
+
 .refreshIframe:hover {
     background-color: green;
 }
