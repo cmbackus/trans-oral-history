@@ -275,7 +275,7 @@
 
   // Configuration for the Timeline
   var options = {
-      height: '200px'
+      height: '300px'
   };
 
   // Create a Timeline

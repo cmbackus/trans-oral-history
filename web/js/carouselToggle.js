@@ -1,6 +1,17 @@
 var personIds = ["metzler", "bills", "delaney", "barres", "waters", "otoole", "archived"];
+window.onload = function () {
 
-//carousel audio
+        console.log("in onload")
+        console.log($('carouselFrame').first().data('url'));
+        $('.carouselFrame').each(function () {
+            console.log($('this'))
+                // $(this).attr('data');
+                //$('iframe').attr('src', $('iframe').attr('data'));
+                //do something with width here
+        });
+
+    }
+    //carousel audio
 $('#metzlerSlide').on('slide', function (e) {
     console.log("metzlerSlide clicked");
     //var xx = $(this);
