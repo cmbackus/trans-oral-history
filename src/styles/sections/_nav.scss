@@ -8,9 +8,19 @@
 }
 
 .nav-text {
-    color: #000;
+    color: #fff;
     .active {
         text-decoration: underline;
-        color: #000;
+        color: #fff;
     }
+}
+
+.navbar,
+.navbar-nav {
+    color: #fff;
+    background-color: $purple-full;
+}
+
+#nav {
+    border-bottom: 1px solid #fff;
 }

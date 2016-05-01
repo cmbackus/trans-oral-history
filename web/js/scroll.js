@@ -5,11 +5,6 @@ $(document).ready(function () {
 
 
 
-    function scroll() {
-
-
-
-    }
 
     document.onscroll = scroll;
     $(".nav a").on("click", function () {
@@ -34,7 +29,12 @@ $(document).ready(function () {
      }, 300, function(){   window.location.hash = hash;
      });
      });*/
-
+    $('#introContinue').click(function () {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+        return false;
+    });
     $(function () {
 
 

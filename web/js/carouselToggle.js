@@ -1,17 +1,21 @@
 var personIds = ["metzler", "bills", "delaney", "barres", "waters", "otoole", "archived"];
 window.onload = function () {
 
-        console.log("in onload")
-        console.log($('carouselFrame').first().data('url'));
-        $('.carouselFrame').each(function () {
-            console.log($('this'))
-                // $(this).attr('data');
-                //$('iframe').attr('src', $('iframe').attr('data'));
-                //do something with width here
-        });
+    console.log("in onload")
+    loadFramesWithin('#metzlerSlide');
 
-    }
-    //carousel audio
+}
+
+function loadFramesWithin(divName) {
+    $(divName).find('.carouselFrame').each(function () {
+        console.log("in loadframeswithin")
+            // console.log($(this).attr("data-url"));
+            // console.log($(this).attr("src"));
+        $(this).attr('src', $(this).attr('data-url'));
+    });
+
+}
+//carousel audio
 $('#metzlerSlide').on('slide', function (e) {
     console.log("metzlerSlide clicked");
     //var xx = $(this);
@@ -55,6 +59,7 @@ $('#metzler').click(function () {
     //$('iframe').attr('src', $('iframe').attr('src'));
     console.log("metzler clicked")
     $('#metzlerSlide').carousel(0);
+    //loadFramesWithin('#metzlerSlide');
     $('#metzlerSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -63,36 +68,42 @@ $('#metzler').click(function () {
 $('#bills').click(function () {
     console.log("metzler clicked")
     $('#billsSlide').carousel(0);
+    loadFramesWithin('#billsSlide');
     $('#billsSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#barres').click(function () {
     $('#barresSlide').carousel(0);
+    loadFramesWithin('#barresSlide');
     $('#barresSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#delaney').click(function () {
     $('#delaneySlide').carousel(0);
+    loadFramesWithin('#delaneySlide');
     $('#delaneySection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#waters').click(function () {
     $('#watersSlide').carousel(0);
+    loadFramesWithin('#watersSlide');
     $('#watersSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#otoole').click(function () {
     $('#otooleSlide').carousel(0);
+    loadFramesWithin('#otooleSlide');
     $('#otooleSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
 })
 $('#archived').click(function () {
     $('#archivedSlide').carousel(0);
+    //loadFramesWithin('#archivedSlide');
     $('#archivedSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -106,6 +117,7 @@ $('.personClose').click(function () {
     //topics carousel
 $('.topicClose').click(function () {
     console.log("close clicked")
+
     $('.TopicCarouselSection').addClass("hideSection")
     $('#topics').removeClass("hideSection")
 
@@ -113,36 +125,42 @@ $('.topicClose').click(function () {
 
 $('#community').click(function () {
     $('#communitySlide').carousel(0);
+    loadFramesWithin('#communitySlide');
     $('#communitySection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#workplace').click(function () {
     $('#workplaceSlide').carousel(0);
+    loadFramesWithin('#workplaceSlide');
     $('#workplaceSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#healthcare').click(function () {
     $('#healthcareSlide').carousel(0);
+    loadFramesWithin('#healthcareSlide');
     $('#healthcareSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#political').click(function () {
     $('#politicalSlide').carousel(0);
+    loadFramesWithin('#politicalSlide');
     $('#politicalSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#transparenthood').click(function () {
     $('#transparenthoodSlide').carousel(0);
+    loadFramesWithin('#transparenthoodSlide');
     $('#transparenthoodSection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 
 })
 $('#visibility').click(function () {
     $('#visibilitySlide').carousel(0);
+    loadFramesWithin('#visibilitySlide');
     $('#visibilitySection').removeClass("hideSection")
     $('#topics').addClass("hideSection")
 

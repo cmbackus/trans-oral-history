@@ -7,15 +7,68 @@
             , "hook": "By drawing together voices of trans activists and advocates, this project seeks to recover the history of Rochester’s transgender community."
         }, {
             "pic": "media/JoAnne_Visibility.png"
-            , "hook": "In recent years, transgender issues have become a popular topic in mainstream media. With trans advocate Laverne Cox gracing the cover in 2014, Time Magazine proudly declared the struggle for transgender liberation “The Next Civil Rights Frontier.” This rhetoric, fueled by sudden increase in representation, has lead many to think of transgender issues as the next big thing for LGBT rights. Not only does this language erase the idea of transgender history, but it also immediately quells any discussion of it. As transgender people and the struggles they face become more recognizable, it is vital that we also recognize the long history that has come before. "
+            , "hook": "In recent years, transgender people have become a popular topic in mainstream media. With trans advocate Laverne Cox gracing its cover in 2014, Time Magazine proudly declared the struggle for transgender liberation “The Next Civil Rights Frontier.” This rhetoric, fueled by sudden increase in representation, has lead many to think of transgender issues as the next big thing for LGBT rights. Much of this coverage overlooks the long tradition of transgender activism. As transgender people and the struggles they face become more recognizable, it is vital that we also recognize the history that has come before."
         }, {
             "pic": "media/JoAnne_Visibility.png"
-            , "hook": "This project documents and preserves transgender history in Rochester, New York through oral history. Oral history is the practice of using people’s experiences, their personal stories and their own words as a primary source. This type of research provides powerful reflections of the past, contrasting objective statistical analysis. Rooted directly in people’s lives, oral history honors stories, experiences, and voices.</br>While this project provides an introduction to transgender history in Rochester, it does not encompass the whole narrative. This is only the beginning of the conversation. "
+            , "hook": "This project documents and preserves transgender history in Rochester, New York through oral history. Oral history is the practice of using people’s experiences, their personal stories, and their own words as a primary source. This type of research provides powerful reflections of the past and its meaning. Rooted directly in people’s lives, oral history celebrates individual voices. </br></br>This project begins to document transgender history in Rochester; it is neither complete nor definitive. In particular, most of the interviewees were white middle-class transgender people. By including more voices, future research would honor the greater diversity of transgender Rochester. This is only the beginning of the conversation that must be continued."
         }, {
             "pic": "media/JoAnne_Visibility.png"
-            , "hook": "The following dialogues with transgender Rochesterians illustrate agency. Their stories show ways in which people formed connections, built communities, and provided resources for future generations. Most importantly, these dialogues emphasize the contributions that transgender people have made in the city they call home. Transgender people have always been, and will continue to be, a vital part of Rochester’s history. "
+            , "hook": "The following dialogues illustrate the agency of transgender Rochesterians. Their stories show ways in which people formed connections, built communities, and provided resources for future generations. Most importantly, these dialogues emphasize the contributions that transgender people have made to the city they call home. Transgender people have always been, and will continue to be, a vital part of Rochester’s history."
         }
-     ],
+     ]
+    , "analysis": [{
+            "hook": "The experiences of transgender Rochesterians show deliberate action, often beginning with people advocating for themselves on an individual basis. As one person transformed their immediate environment in order to survive, they created a framework of inclusion that allowed others to succeed. Eventually, after decades of transgender people becoming agents of change, they are being recognized for their accomplishments."
+    }, {
+            "hook": "As early as the 1970s, transgender people in Rochester were demanding recognition within the growing Gay Liberation Front. Motivated by self-preservation, transexual women formed support groups, empowered each other, and spoke out about their experiences in a hostile world. Their work questioned the relationship between gender and sexuality, and by extension, the relationship between trans liberation and gay liberation."
+    }, {
+            "hook": "Unfortunately this dialogue, started in the 1970s, was answered with strong backlash in the 1980s. Some trans-exclusive feminist theory asserted that trans(s)exual women were not truly women, thus banishing trans people from women’s spaces, while many gay men ostracized trans women because they were too feminine. As gay activism shifted from radical demonstrations to institutionalized non-profit organizations, the priorities of advocates also shifted to reflect those of wealthy donors who were primarily affluent gay men. And as the HIV epidemic claimed unprecedented numbers of trans lives, the community suffered tremendously"
+    }, {
+            "hook": "Kicked out of gay bars and diagnosed with an identity disorder, trans Rochesterians sought refuge in Transvestites Anonymous, a support group created by therapist Dr. Horace Lethbridge. By 1985, members took control and created an autonomous group. Within four years, Transvestites Anonymous was renamed the Crossdresser’s Network, and it quickly became a lifeline for more than seventy members in the Rochester area."
+    }, {
+            "hook": "Gaining support through the CD Network and a growing community, trans people began reclaiming space in Rochester throughout the 1990s. Under a banner reading “Transgendered and Proud,” the newly formed Rochester Transgender Group marched annually in the Rochester Pride Parade, demanding acknowledgement from the gay and lesbian community. As the early internet developed, it was quickly populated by trans people who were desperate to connect with others across expanding geographies. By refusing to settle for mistreatment, transgender people compelled their employers to adopt inclusive policies, created welcoming congregations in places of worship, and necessitated improvements in mental and physical healthcare. This momentum progressed into the new millennium and continues today."
+    }, {
+            "hook": "This mobilization of transgender individuals is what Time Magazine referred to as “The Next Civil Rights Frontier” in 2014. However, according to the activists and community members, transgender people have been establishing new frontiers for more than forty years. By honoring this history, we bear witness to decades of struggles, successes, and strides made by transgender people. As they transformed themselves, they also transformed Rochester"
+    }
+
+    ]
+    , "resources": {
+        "digital": [{
+            "title": "Digital Transgender Archives"
+            , "href": "https://www.digitaltransgenderarchive.net/"
+        }, {
+            "title": "Empty Closet Archives"
+            , "href": "http://rbscp.lib.rochester.edu/EmptyCloset"
+        }, {
+            "title": "The “Trans + Gender” Project"
+            , "href": "http://kjrawson.net/trans-gender-timeline/"
+        }, {
+            "title": "Milwaukee Transgender Oral History Project"
+            , "href": "http://collections.lib.uwm.edu/cdm/search/collection/transhist"
+        }, {
+            "title": "New York City Trans Oral History Project"
+            , "href": "http://www.nyctransoralhistory.org/"
+        }, {
+            "title": "Oral History Association"
+            , "href": "http://www.oralhistory.org"
+        }]
+        , "print": [{
+            "title": "Transgender History"
+            , "author": "Susan Stryker "
+            , "publisher": "Perseus Group, 2008"
+        }, {
+            "title": "How Sex Changed: A History of Transsexuality in the United States"
+            , "author": "Joanne Meyerowitz"
+            , "publisher": "Harvard University Press, 2004"
+        }, {
+            "title": "Bodies of Evidence: The Practice of Queer Oral History"
+            , "author": "Nan Alamilla Boyd & Horacio N. Roque Ramirez"
+            , "publisher": "Oxford University Press, 2014"
+        }, {
+            "title": "Transgender Studies Quarterly"
+            , "author": "Edited by Paisley Currah & Susan Stryker"
+            , "publisher": "Duke University Press"
+        }]
+    },
 
 
 
@@ -25,31 +78,62 @@
             , "tab": "media/placeholderTab.jpg"
             , "title": "Digital Humanities"
             , "website": "www.placeholder.com"
+            , "href": "http://www.placeholdersite.com"
         }, {
             "name": "Jess Wiltey"
             , "tab": "media/placeholderTab.jpg"
             , "title": "New Media Design"
             , "website": "www.placeholder.com"
+            , "href": "http://www.placeholdersite.com"
         }, {
             "name": "Charlie Backus"
             , "tab": "media/placeholderTab.jpg"
             , "title": "New Media Developer"
-            , "website": "www.cbackus.com"
+            , "website": "cbackus.com"
+            , "href": "http://www.cbackus.com"
         }
+
+
+
+
+
+
+
+
+
+
+
+
 
         
         , {
             "name": "Maxwell Harvey-Sampson"
             , "tab": "media/placeholderTab.jpg"
             , "title": "Photography"
-            , "website": "Maxwellharvey-sampson.com"
+            , "website": "MaxwellHarvey-Sampson.com"
+            , "href": "http://www.Maxwellharvey-sampson.com"
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+        
         , {
             "name": "Dr. Tamar Carroll"
             , "tab": "media/placeholderTab.jpg"
             , "title": "Faculty Advisor"
-            , "website": "Tamarcarroll.com"
+            , "website": "TamarCarroll.com"
+            , "href": "http://www.tamarcarroll.com"
+
         }
 
 ]
