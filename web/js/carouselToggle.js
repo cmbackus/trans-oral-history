@@ -159,9 +159,22 @@ $('#transparenthood').click(function () {
 
 })
 $('#visibility').click(function () {
-    $('#visibilitySlide').carousel(0);
-    loadFramesWithin('#visibilitySlide');
-    $('#visibilitySection').removeClass("hideSection")
-    $('#topics').addClass("hideSection")
+        $('#visibilitySlide').carousel(0);
+        loadFramesWithin('#visibilitySlide');
+        $('#visibilitySection').removeClass("hideSection")
+        $('#topics').addClass("hideSection")
+
+    })
+    //read mores
+$('.readMoreBtn').click(function () {
+    console.log("in read more");
+    $(this).parents('.readLess').siblings('.readMore').removeClass("hideSection");
+    $(this).parents('.readLess').addClass("hideSection");
+
+})
+$('.readLessBtn').click(function () {
+    console.log("in read more");
+    $(this).parents('.readMore').siblings('.readLess').removeClass("hideSection");
+    $(this).parents('.readMore').addClass("hideSection");
 
 })

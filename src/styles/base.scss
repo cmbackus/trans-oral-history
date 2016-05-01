@@ -3,7 +3,7 @@
    @import 'fonts';
    @import 'sections/base';
    * {
-       font-family: 'myriad pro', sans-serif, serif;
+       font-family: 'Nunito-Regular', sans-serif, serif;
    }
    
    h1 {
@@ -11,7 +11,7 @@
    }
    
    p {
-       font-family: sans-serif;
+       font-family: 'Nunito-Regular';
        font-size: 1.25em;
        color: #1E1E1E;
        padding: 10px;
@@ -114,9 +114,6 @@
            padding: 10px;
            margin: 0px
        }
-       .topicSection {
-           .gitem img {}
-       }
        .gitem {
            padding: 10px;
            //margin-bottom: 30px;
@@ -134,7 +131,6 @@
                    min-width: 125px;
                    min-height: 125px;
                }
-               @include border-radius(50%);
                margin:auto;
                display:block;
            }
@@ -149,8 +145,26 @@
                padding: 0px;
            }
        }
+       .ritem {
+           img {
+               @include border-radius(50%);
+           }
+       }
    }
    
    .hideSection {
        display: none;
+   }
+   
+   #team {
+       h3 {
+           font-family: 'Neutra Display Titling';
+           font-size: 14pt;
+       }
+   }
+   
+   #sources {
+       h3 {
+           font-family: 'Neutra Text-Book Alt';
+       }
    }

@@ -1,6 +1,6 @@
 .carouselFull {
     min-height: 90%;
-    max-height: 900px;
+    //max-height: 900px;
     //background-image:url("../../media/eastman.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,6 +30,11 @@
         margin: auto;
         min-height: 170px;
     }
+}
+
+.glossaryLink {
+    max-height: 32px;
+    overflow: hidden;
 }
 
 .carouselSection {
@@ -108,8 +113,15 @@
 
 .fullbg {
     min-height: 90%;
-    max-height: 900px;
+    //max-height: 900px;
     position: relative;
     //background-color: rgba(50,0,75, 0.6);
     //background-blend-mode: multiply;
+}
+
+.moveDown {
+    margin-left: 45%;
+    color: #fff;
+    padding-top: 30p;
+    background-color: transparent;
 }

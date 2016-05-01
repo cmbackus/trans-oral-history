@@ -24,12 +24,22 @@
                             <div class="slideInfo">
 
                                 <div class="slideContent">
+
                                     <h3><span class="name">{{../topic}} </span>  {{#isnt @index 0 }}
                                     {{title}}{{/isnt}}
                                         </h3> {{#isnt @index 0 }}
-                                    <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>{{/isnt}}
 
-                                    <p>{{{hook}}}</p>
+                                    <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>{{/isnt}}
+                                    <div class="readLess">
+                                        <p>{{{hook}}}</p> {{#isnt @index 0 }}
+                                        <div class="btn readMoreBtn">Read More</div>
+                                        {{/isnt}}
+                                    </div>
+                                    <div class="readMore hideSection">
+                                        <p>{{{fullText}}}</p>
+                                        <div class="btn readLessBtn">Read Less</div>
+                                    </div>
+
                                 </div>
                             </div>
 

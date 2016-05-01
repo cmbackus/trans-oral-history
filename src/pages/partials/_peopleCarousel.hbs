@@ -28,9 +28,18 @@
                                         <h3><span class="name">{{../name}} </span>  {{#isnt @index 0 }}
                                     {{title}}{{/isnt}}
                                         </h3> {{#isnt @index 0 }}
-                                        <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>{{/isnt}}
 
-                                        <p>{{{hook}}}</p>
+                                        <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>{{/isnt}}
+                                        <div class="readLess">
+                                            <p>{{{hook}}}</p>
+                                            <div class="btn readMoreBtn">Read More</div>
+
+                                        </div>
+                                        <div class="readMore hideSection">
+                                            <p>{{{fullText}}}</p>
+                                            <div class="btn readLessBtn">Read Less</div>
+
+                                        </div>
                                     </div>
                                 </div>
 
