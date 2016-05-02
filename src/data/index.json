@@ -78,31 +78,31 @@
     "team": [
         {
             "name": "Ben Eshleman"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Ben_Profile.png"
             , "title": "Queer Historian"
             , "website": "beneshleman.com"
             , "href": "www.beneshleman.com"
         }, {
             "name": "Jess Wiltey"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Jess_Profile.png"
             , "title": "New Media Designer"
             , "website": "jesswiltey.com"
             , "href": "http://www.jesswiltey.com"
         }, {
             "name": "Charlie Backus"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Charlie_Profile.png"
             , "title": "New Media Developer"
             , "website": "cbackus.com"
             , "href": "http://www.cbackus.com"
         }, {
             "name": "Maxwell Harvey-Sampson"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Maxwell_Profile.png"
             , "title": "Photographer"
             , "website": "MaxwellHarvey-Sampson.com"
             , "href": "http://www.Maxwellharvey-sampson.com"
         }, {
             "name": "Dr. Tamar Carroll"
-            , "tab": "media/placeholderTab.jpg"
+            , "tab": "media/Tamar_Profile.png"
             , "title": "Faculty Advisor"
             , "website": "TamarCarroll.com"
             , "href": "http://www.tamarcarroll.com"
