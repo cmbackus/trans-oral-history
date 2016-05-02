@@ -1,12 +1,55 @@
-<section class="galleryholder projectSection inverted" id="analysis">
-    <h2 class="standalone">Impressions</h2>
-    <hr>
-    <div class="row">
-        {{#each index.analysis}}
-        <p class=col-md-12>{{{hook}}}</p>
+<section id="analysis" class="projectSection carouselSection">
 
-        {{/each}}
+    <div id="analysisSlide" class="carousel slide " data-ride="carousel" data-interval="false">
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each index.analysis}} {{#is @index 0 }}
+            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+                {{/is}} {{#isnt @index 0 }}
+                <div class="item fullbg" style="background: url({{pic}}) no-repeat center center fixed;)  ">
+
+                    {{/isnt}}
+
+                    <div class="infobox infoclear">
+
+                        <div class="inner">
+                            <div class="slideInfo">
+
+                                <div class="slideContent">
+                                    {{#is @index 0 }}
+                                    <h2 class="standalone">Impressions</h2>
+                                    <hr>
+                                    <h4>{{subtitle}}</h4> {{/is}}
+
+                                    <p>{{{hook}}}</p>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--<div class="layer"></div> -->
+
+                </div>
+                {{/each}}
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#analysisSlide" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#analysisSlide" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
     </div>
+
+
+
 </section>
