@@ -2,7 +2,7 @@
     min-height: 90%;
     //max-height: 900px;
     //background-image:url("../../media/eastman.png");
-    -webkit-background-size: cover;
+    // -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -116,6 +116,7 @@
     min-height: 90%;
     //max-height: 900px;
     position: relative;
+    background-size: 100% auto;
     //background-color: rgba(50,0,75, 0.6);
     //background-blend-mode: multiply;
 }

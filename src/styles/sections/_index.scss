@@ -42,8 +42,11 @@ li {
     list-style: none;
 }
 
-#intro h4 {
-    text-align: center;
+#intro {
+    h4 {
+        text-align: center;
+    }
+    padding-top:0px;
 }
 
 #footer {

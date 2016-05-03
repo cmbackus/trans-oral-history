@@ -57,19 +57,19 @@
         , "print": [{
             "title": "Transgender History"
             , "author": "Susan Stryker "
-            , "publisher": "Perseus Group, 2008"
+            , "href": "http://sealpress.com/books/transgender-history/"
         }, {
             "title": "How Sex Changed: A History of Transsexuality in the United States"
             , "author": "Joanne Meyerowitz"
-            , "publisher": "Harvard University Press, 2004"
+            , "href": "http://www.hup.harvard.edu/catalog.php?isbn=9780674013797"
         }, {
             "title": "Bodies of Evidence: The Practice of Queer Oral History"
             , "author": "Nan Alamilla Boyd & Horacio N. Roque Ramirez"
-            , "publisher": "Oxford University Press, 2014"
+            , "href": "https://global.oup.com/academic/product/bodies-of-evidence-9780199742738?cc=us&lang=en&"
         }, {
             "title": "Transgender Studies Quarterly"
             , "author": "Edited by Paisley Currah & Susan Stryker"
-            , "publisher": "Duke University Press"
+            , "href": "https://www.dukeupress.edu/TSQ-Transgender-Studies-Quarterly"
         }]
     },
 

@@ -32,21 +32,17 @@ $('.glossaryLink').click(function (e) {
 
 
 })
-$('.refreshIframe').click(function () {
-        console.log("refreshing iframe")
-        $(this).parents("iframe").html("<iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889676&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_artwork=false'></iframe>")
-            //$('iframe').attr('src', $('iframe').attr('src'));
+
+//people carousel
+/*for (var i = 0; i > personIds; i++) {
+    $('#' + personIds[i]).click(function () {
+        console.log(personIds[i] + " clicked")
+        $('#' + personIds[i] + 'Section').removeClass("hideSection")
+        $('#people').addClass("hideSection")
+
     })
-    //people carousel
-    /*for (var i = 0; i > personIds; i++) {
-        $('#' + personIds[i]).click(function () {
-            console.log(personIds[i] + " clicked")
-            $('#' + personIds[i] + 'Section').removeClass("hideSection")
-            $('#people').addClass("hideSection")
 
-        })
-
-    }*/
+}*/
 
 /*$('#metzler').click(function () {
     console.log("metzler clicked")

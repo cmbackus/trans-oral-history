@@ -5,16 +5,15 @@
         <div class="col-md-12">
             <h2>Digital Resources</h2>
             <ul>{{#each index.resources.digital }}
-                <li class="col-md-4 gitem">
+                <li class="col-md-6 gitem">
                     <h3><a href="{{href}}" target="_blank">{{title}}</a></h3></li>{{/each}}</ul>
         </div>
         <div class="col-md-12">
-            <h2>Printed Materials</h2>
+            <h2>Scholarly Resources</h2>
             <ul>{{#each index.resources.print }}
-                <li class="col-md-4 gitem">
-                    <h3>{{title}}</h3>
+                <li class="col-md-6 gitem">
+                    <h3><a src={{href}}>{{title}}</a></h3>
                     <p>{{author}}</p>
-                    <p>{{publisher}}</p>
                 </li>{{/each}}
             </ul>
         </div>

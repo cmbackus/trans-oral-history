@@ -3,7 +3,18 @@ $(document).ready(function () {
     var menu = $('#nav');
     var origOffsetY = 200 //$(window).height();
 
+    function scroll() {
 
+        if ($(window).scrollTop() >= origOffsetY) {
+            $('#nav').addClass('navbar-fixed-top');
+            //$('.content').addClass('menu-padding');
+        } else {
+            $('#nav').removeClass('navbar-fixed-top');
+            //$('.content').removeClass('menu-padding');
+        }
+
+
+    }
 
 
     document.onscroll = scroll;
@@ -12,6 +23,8 @@ $(document).ready(function () {
         $('#people').removeClass("hideSection")
         $('.TopicCarouselSection').addClass("hideSection")
         $('#topics').removeClass("hideSection")
+        $('#introSlide').carousel(0);
+        $('#analysisSlide').carousel(0);
         $(".nav").find(".active").removeClass("active");
         $(this).parent().addClass("active");
     });
