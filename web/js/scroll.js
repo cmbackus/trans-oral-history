@@ -3,21 +3,8 @@ $(document).ready(function () {
     var menu = $('#nav');
     var origOffsetY = 200 //$(window).height();
 
-    function scroll() {
 
-        if ($(window).scrollTop() >= origOffsetY) {
-            $('#nav').addClass('navbar-fixed-top');
-            //$('.content').addClass('menu-padding');
-        } else {
-            $('#nav').removeClass('navbar-fixed-top');
-            //$('.content').removeClass('menu-padding');
-        }
-
-
-    }
-
-
-    document.onscroll = scroll;
+    //document.onscroll = scroll;
     $(".nav a").on("click", function () {
         $('.PeopleCarouselSection').addClass("hideSection")
         $('#people').removeClass("hideSection")
@@ -28,6 +15,16 @@ $(document).ready(function () {
         $(".nav").find(".active").removeClass("active");
         $(this).parent().addClass("active");
     });
+    $(".bottomList").on("click", function () {
+
+        var currenthref = $(this).attr('href');
+
+        $("body, html").animate({
+            "scrollTop": $(currenthref).offset().top
+        }, 1000);
+        return false;
+
+    })
     $('body').scrollspy({
         target: '#navbar' - $("#navbar").height()
     })
@@ -43,9 +40,11 @@ $(document).ready(function () {
      });
      });*/
     $('#introContinue').click(function () {
-        $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
+        var currenthref = "#people";
+
+        $("body, html").animate({
+            "scrollTop": $(currenthref).offset().top
+        }, 1000);
         return false;
     });
     $(function () {

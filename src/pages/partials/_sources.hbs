@@ -1,17 +1,17 @@
-<section class="galleryholder projectSection slideInfo" id="sources">
+<section class="galleryholder projectSection slideInfo forwardColor" id="sources">
     <h2 class="standalone ">Resources</h2>
-    <hr>
+    <hr class="black">
     <div class="row">
         <div class="col-md-12">
             <h2>Digital Resources</h2>
             <ul>{{#each index.resources.digital }}
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="{{href}}" target="_blank">{{title}}</a></h3></li>{{/each}}</ul>
         </div>
         <div class="col-md-12">
             <h2>Scholarly Resources</h2>
             <ul>{{#each index.resources.print }}
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a src={{href}}>{{title}}</a></h3>
                     <p>{{author}}</p>
                 </li>{{/each}}

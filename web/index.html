@@ -3,7 +3,7 @@
 <head>
     <title>Trans Rochester Speaks</title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/ico" href="assets/favicon.png">
+    <link rel="icon" type="image/ico" href="media/favicon.png">
     <link href="./css/base.css" rel="stylesheet" type="text/css">
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
@@ -25,19 +25,11 @@
     <nav id="nav" class="navbar navbar-fixed-top  " role="navigation" data-target="navbar">
     <div class="container-fluid">
         <div class="navbar-header">
-            <!-- creating button for mobile menu (navbar collapse) -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
-                <!-- sr-only hides content to all devices besides screen readers (following accessibility best practices)-->
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <!-- nav bar logo far left -->
-            <a href="#intro" class="navbar-brand brand" id="brand" title="Transformation">Trans Rochester Speaks</a>
+
+            <a href="#intro" class="navbar-brand brand col-sm-12 col-md-6" id="brand" title="Transformation">Trans <span class="alt">Rochester</span> Speaks</a>
         </div>
         <!-- all navbar content built to work for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="navHeaderCollapse">
+        <div class="collapse navbar-collapse navbar-right col-sm-12" id="navHeaderCollapse">
             <ul class="nav  navbar-nav">
                 <li><a href="#people" class="select nav-text">People</a></li>
                 <li><a href="#topics" class="select nav-text">Topics</a></li>
@@ -52,12 +44,6 @@
 </nav><section id="intro" class="projectSection carouselSection">
 
     <div id="introSlide" class="carousel slide " data-ride="carousel" data-interval="false">
-        <!-- Indicators 
-        <ol class="carousel-indicators">
-            <li data-target="#Slide" data-slide-to="0" class="active"></li>
-            <li data-target="#Slide" data-slide-to="1"></li>
-            <li data-target="#Slide" data-slide-to="2"></li>
-        </ol>-->
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -72,7 +58,7 @@
 
                                 <div class="slideContent">
                                     
-                                    <h3>Trans Rochester Speaks</h3>
+                                    <h1 id="projectTitle">Trans <span class="alt">Rochester</span> Speaks</h1>
                                     <h4>A dialogue in community history</h4> 
 
                                     <p>By drawing together voices of trans activists and advocates, this project seeks to recover the history of Rochester’s transgender community.</p>
@@ -123,7 +109,7 @@
                                 <div class="slideContent">
                                     
 
-                                    <p>This project documents and preserves transgender history in Rochester, New York through oral history. Oral history is the practice of using people’s experiences, their personal stories, and their own words as a primary source. This type of research provides powerful reflections of the past and its meaning. Rooted directly in people’s lives, oral history celebrates individual voices. </br></br>This project begins to document transgender history in Rochester; it is neither complete nor definitive. In particular, most of the interviewees were white middle-class transgender people. By including more voices, future research would honor the greater diversity of transgender Rochester. This is only the beginning of the conversation that must be continued.</p>
+                                    <p>This project documents and preserves transgender history in Rochester, New York through oral history, archival research, and photographs. Oral history is the practice of using people’s experiences, their personal stories, and their own words as a primary source. This type of research provides powerful reflections of the past and its meaning. Rooted directly in people’s lives, oral history celebrates individual voices. </br></br>This project begins to document transgender history in Rochester; it is neither complete nor definitive. In particular, most of the interviewees were white middle-class transgender people. By including more voices, future research would honor the greater diversity of transgender Rochester. This is only the beginning of the conversation that must be continued.</p>
                                     
 
                                 </div>
@@ -147,7 +133,7 @@
                                 <div class="slideContent">
                                     
 
-                                    <p>The following dialogues illustrate the agency of transgender Rochesterians. Their stories show ways in which people formed connections, built communities, and provided resources for future generations. Most importantly, these dialogues emphasize the contributions that transgender people have made to the city they call home. Transgender people have always been, and will continue to be, a vital part of Rochester’s history.</p>
+                                    <p>The following dialogues illustrate the agency of transgender Rochesterians. Their stories show ways in which people formed connections, built communities, and provided resources for future generations. Most importantly, these dialogues emphasize the contributions that transgender people have made to the city they call home. Transgender people have always been, and will continue to be, a vital part of Rochester’s history.</br></br>To the people who participated in this project, thank you for sharing your stories and your personal archives. </p>
                                      <a href="#people" class="moveDown btn btn-lg">Continue</a>
 
                                 </div>
@@ -177,11 +163,11 @@
 
 
 
-</section> <section class="galleryholder projectSection" id="people">
+</section> <section class="galleryholder projectSection forwardColor" id="people">
     <h2 class="standalone">People</h2>
-    <hr>
+    <hr class="white">
 
-    <div class="row">
+    <div>
         
         <div class="gitem ritem col-md-3 col-xs-6" id=metzler><img src="media/JoAnne_Profile.png">
             <h2>JoAnne Metzler</h2></div>
@@ -230,7 +216,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -266,7 +252,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     Early Coming Out
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889393&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=true&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_artwork=false'></iframe>
@@ -305,7 +291,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     Finding Community
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889681&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_artwork=false'></iframe>
@@ -344,7 +330,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     Transitioning at Work
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889674&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_artwork=false'></iframe>
@@ -383,7 +369,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     GENDA
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889680&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_artwork=false'></iframe>
@@ -422,7 +408,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     Visibility
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889671&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_reposts=false&amp;amp;show_artwork=false'></iframe>
@@ -461,7 +447,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">JoAnne Metzler </span>  
+                                        <h3><span class="name display">JoAnne Metzler </span>  
                                     A Planetary Shift
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258889676&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=falseshow_artwork=false&amp;amp;show_reposts=false&amp;amp;'></iframe>
@@ -532,7 +518,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -568,7 +554,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     Biker Gang Life
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135042&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -607,7 +593,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     Workplace Discrimination at Xerox
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135041&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -646,7 +632,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     Negative Experiences Health Care
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135037&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -685,7 +671,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     Dr. William Valenti &amp; Trillium Health
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135033&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -724,7 +710,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     ENDA &amp; Animosity
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135038&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -763,7 +749,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Karen Anne Bills </span>  
+                                        <h3><span class="name display">Karen Anne Bills </span>  
                                     Third Presbyterian Church
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260135035&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -834,7 +820,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -870,7 +856,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Caught Cross-dressing
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834804&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -909,7 +895,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Traveling and Cross-dressing
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834797&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -948,7 +934,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     George’s Influence
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834805&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -987,7 +973,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Interactions with Mental Health
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259836809&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1026,7 +1012,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Finding Community
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834806&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1065,7 +1051,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Evolution of TVA and CD Network
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834811&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1104,7 +1090,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Pam Barres </span>  
+                                        <h3><span class="name display">Pam Barres </span>  
                                     Fantasia Fair
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834808&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1175,7 +1161,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -1211,7 +1197,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                     Community, Identity &amp; Activism
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259832848&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1250,7 +1236,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                     Genesee Valley Gender Variants
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259832849&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1289,7 +1275,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                     Visibility
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259832841&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1328,7 +1314,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                     Transparenthood
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259832843&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1367,7 +1353,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Maur DeLaney </span>  
+                                        <h3><span class="name display">Maur DeLaney </span>  
                                     Health Care
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259832846&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1438,7 +1424,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -1474,7 +1460,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     Developing Identity
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134942&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1513,7 +1499,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     Medical Transition
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134937&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1552,7 +1538,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     Direct Action &amp; Involvement
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134933&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1591,7 +1577,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     True Spirit Conference
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134930&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1630,7 +1616,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     Butch / FTM Border Wars
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134945&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1669,7 +1655,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Sam Waters </span>  
+                                        <h3><span class="name display">Sam Waters </span>  
                                     Pushed Out
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/260134940&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1740,7 +1726,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -1776,7 +1762,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                     Finding Community Online
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834250&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1815,7 +1801,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                     Halloween 2003
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834249&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1854,7 +1840,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                     Medical Interactions
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834247&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1893,7 +1879,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                     Coming Out in Sodus
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834252&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -1932,7 +1918,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Shauna O&#x27;Toole </span>  
+                                        <h3><span class="name display">Shauna O&#x27;Toole </span>  
                                     Transparenthood
                                         </h3> 
                                         <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259834244&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=false&amp;amp;show_user=false&amp;amp;show_artwork=false&amp;amp;show_reposts=false'></iframe>
@@ -2003,7 +1989,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                         </h3> 
 
                                         <div class="readLess">
@@ -2032,7 +2018,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                     Sandra Pierce
                                         </h3> 
 
@@ -2069,7 +2055,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                     Peggy
                                         </h3> 
 
@@ -2106,7 +2092,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                     Leah Wilder
                                         </h3> 
 
@@ -2143,7 +2129,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                     Karen
                                         </h3> 
 
@@ -2180,7 +2166,7 @@
                                 <div class="slideInfo">
 
                                     <div class="slideContent">
-                                        <h3><span class="name">Empty Closet Profiles </span>  
+                                        <h3><span class="name display">Empty Closet Profiles </span>  
                                     Renee Joy Hughson
                                         </h3> 
 
@@ -2227,25 +2213,25 @@
 </section>
 <section class="galleryholder projectSection reverseColor" id="topics">
     <h2 class="standalone">Topics</h2>
-    <hr>
-    <div class="row">
+    <hr class="white">
+    <div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=community><img src="media/icons_Community.png">
+        <div class="gitem col-md-4 col-xs-6 " id=community><img src="media/icons_Community.png">
             <h2>Finding Community</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=workplace><img src="media/icons_Workplace.png">
+        <div class="gitem col-md-4 col-xs-6 " id=workplace><img src="media/icons_Workplace.png">
             <h2>Transitioning in Workplace</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=healthcare><img src="media/icons_Healthcare.png">
+        <div class="gitem col-md-4 col-xs-6 " id=healthcare><img src="media/icons_Healthcare.png">
             <h2>Health Care</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=political><img src="media/icons_Politics.png">
+        <div class="gitem col-md-4 col-xs-6 " id=political><img src="media/icons_Politics.png">
             <h2>Political Involvement</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=transparenthood><img src="media/icons_Parenthood.png">
+        <div class="gitem col-md-4 col-xs-6 " id=transparenthood><img src="media/icons_Parenthood.png">
             <h2>Transparenthood</h2></div>
         
-        <div class="gitem col-md-3 col-xs-6 " id=visibility><img src="media/icons_Visibility.png">
+        <div class="gitem col-md-4 col-xs-6 " id=visibility><img src="media/icons_Visibility.png">
             <h2>Visibility</h2></div>
         
 
@@ -2274,7 +2260,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p> This section shows ways in which transgender people fostered connections with people who shared their experiences.</br></br>In the 1980s, resources were limited to secretive support groups located in Rochester and in other cities. Those living in rural areas relied on internet forums, which began developing in the 1990s. Transmasculine people in particular often found the trans community through first exploring lesbianism. The transgender community and queer community of Rochester has become more inclusive and diverse in recent years.</p> 
@@ -2304,7 +2290,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                     Pam Barres
                                         </h3> 
 
@@ -2339,7 +2325,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                     JoAnne Metzler
                                         </h3> 
 
@@ -2374,7 +2360,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                     Shauna O&#x27;Toole
                                         </h3> 
 
@@ -2409,7 +2395,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                     Maur Delaney
                                         </h3> 
 
@@ -2444,7 +2430,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Finding Community </span>  
+                                    <h3><span class="name display">Finding Community </span>  
                                     Sam Waters
                                         </h3> 
 
@@ -2511,7 +2497,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transitioning in Workplace </span>  
+                                    <h3><span class="name display">Transitioning in Workplace </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p>The following clips illustrate the experiences of three transgender women as they transitioned at work.  </p> 
@@ -2541,7 +2527,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transitioning in Workplace </span>  
+                                    <h3><span class="name display">Transitioning in Workplace </span>  
                                     Karen Anne Bills
                                         </h3> 
 
@@ -2576,7 +2562,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transitioning in Workplace </span>  
+                                    <h3><span class="name display">Transitioning in Workplace </span>  
                                     Joanne Metzler
                                         </h3> 
 
@@ -2611,7 +2597,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transitioning in Workplace </span>  
+                                    <h3><span class="name display">Transitioning in Workplace </span>  
                                     Shauna O&#x27;Toole
                                         </h3> 
 
@@ -2678,7 +2664,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p> Because medical intervention is often seen as a necessary part of transitioning, transgender people have prioritized both physical and mental health care.</br></br>In this section, narrators recounted their experiences with conversion therapy and psychological testing, both processes which have been phased out of modern transgender treatment. Many people reported having to educate their doctors to receive proper treatment while others were simply refused service by doctors due to their gender identity. In recent years, transition-related health care has become significantly more accessible. </p> 
@@ -2708,7 +2694,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Pam Barres
                                         </h3> 
 
@@ -2743,7 +2729,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Joanne Metzler
                                         </h3> 
 
@@ -2778,7 +2764,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Sam Waters
                                         </h3> 
 
@@ -2813,7 +2799,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Karen Anne Bills
                                         </h3> 
 
@@ -2848,7 +2834,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Karen Anne Bills
                                         </h3> 
 
@@ -2883,7 +2869,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Shauna O&#x27;Toole
                                         </h3> 
 
@@ -2918,7 +2904,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Health Care </span>  
+                                    <h3><span class="name display">Health Care </span>  
                                     Maur Delaney
                                         </h3> 
 
@@ -2985,7 +2971,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Political Involvement </span>  
+                                    <h3><span class="name display">Political Involvement </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p>In this section, narrators discuss their involvement in political activism as well as their opinions on LGBT rights legislation. </p> 
@@ -3015,7 +3001,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Political Involvement </span>  
+                                    <h3><span class="name display">Political Involvement </span>  
                                     Karen Anne Bills
                                         </h3> 
 
@@ -3050,7 +3036,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Political Involvement </span>  
+                                    <h3><span class="name display">Political Involvement </span>  
                                     JoAnne Metzler
                                         </h3> 
 
@@ -3085,7 +3071,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Political Involvement </span>  
+                                    <h3><span class="name display">Political Involvement </span>  
                                     Sam Waters
                                         </h3> 
 
@@ -3152,7 +3138,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transparenthood </span>  
+                                    <h3><span class="name display">Transparenthood </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p>In this section, two transgender narrators describe their relationship with their children and the impact that their transition had on that relationship. </p> 
@@ -3182,7 +3168,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transparenthood </span>  
+                                    <h3><span class="name display">Transparenthood </span>  
                                     Maur Delaney
                                         </h3> 
 
@@ -3217,7 +3203,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Transparenthood </span>  
+                                    <h3><span class="name display">Transparenthood </span>  
                                     Shauna O&#x27;Toole
                                         </h3> 
 
@@ -3284,7 +3270,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                         </h3> 
                                     <div class="readLess">
                                         <p>This section explores the connections between visibility, representation, and acceptance.</br></br>Many transgender people have prioritized making their experiences and struggles well-known. While this process can encourage acceptance of trans identities, it can also put gender nonconforming people at risk of violence. Very recently, transgender people, particularly transgender women, have been more visible than ever. </p> 
@@ -3314,7 +3300,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                     JoAnne Metzler
                                         </h3> 
 
@@ -3349,7 +3335,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                     Maur DeLaney
                                         </h3> 
 
@@ -3384,7 +3370,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                     Sam Waters
                                         </h3> 
 
@@ -3419,7 +3405,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                     JoAnne Metzler
                                         </h3> 
 
@@ -3454,7 +3440,7 @@
 
                                 <div class="slideContent">
 
-                                    <h3><span class="name">Visibility </span>  
+                                    <h3><span class="name display">Visibility </span>  
                                     Sam Waters
                                         </h3> 
 
@@ -3497,9 +3483,9 @@
 
 
 </section>
- <section class="galleryholder projectSection glossarySection" id="timeline">
+ <section class="galleryholder projectSection glossarySection forwardColor" id="timeline">
     <h2 class="standalone">Timeline</h2>
-    <hr>
+    <hr class="black">
     <div id="timelineSlide" class="carousel slide " data-ride="carousel" data-interval="false">
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -4907,7 +4893,7 @@
     <div class="row">
 
         <div id="visualization"></div>
-        <p>Adapted from Milestones in the American Transgender Movement, published by the New York Times in May 2015. </p>
+        <p>Adapted from Milestones in the American Transgender Movement, published by the <i>New York Times</i> in May 2015. </p>
     </div>
 
 </section><section id="analysis" class="projectSection carouselSection">
@@ -5033,44 +5019,44 @@
 
 
 
-</section><section class="galleryholder projectSection slideInfo" id="sources">
+</section><section class="galleryholder projectSection slideInfo forwardColor" id="sources">
     <h2 class="standalone ">Resources</h2>
-    <hr>
+    <hr class="black">
     <div class="row">
         <div class="col-md-12">
             <h2>Digital Resources</h2>
             <ul>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="https://www.digitaltransgenderarchive.net/" target="_blank">Digital Transgender Archives</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://rbscp.lib.rochester.edu/EmptyCloset" target="_blank">Empty Closet Archives</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://kjrawson.net/trans-gender-timeline/" target="_blank">The “Trans + Gender” Project</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://collections.lib.uwm.edu/cdm/search/collection/transhist" target="_blank">Milwaukee Transgender Oral History Project</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://www.nyctransoralhistory.org/" target="_blank">New York City Trans Oral History Project</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://www.oralhistory.org" target="_blank">Oral History Association</a></h3></li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a href="http://transoralhistory.com/" target="_blank">Trans Oral History Project</a></h3></li></ul>
         </div>
         <div class="col-md-12">
             <h2>Scholarly Resources</h2>
             <ul>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a src=http://sealpress.com/books/transgender-history/>Transgender History</a></h3>
                     <p>Susan Stryker </p>
                 </li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a src=http://www.hup.harvard.edu/catalog.php?isbn=9780674013797>How Sex Changed: A History of Transsexuality in the United States</a></h3>
                     <p>Joanne Meyerowitz</p>
                 </li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a src=https://global.oup.com/academic/product/bodies-of-evidence-9780199742738?cc=us&amp;lang=en&amp;>Bodies of Evidence: The Practice of Queer Oral History</a></h3>
                     <p>Nan Alamilla Boyd &amp; Horacio N. Roque Ramirez</p>
                 </li>
-                <li class="col-md-6 gitem">
+                <li class="col-md-6 resource gitem">
                     <h3><a src=https://www.dukeupress.edu/TSQ-Transgender-Studies-Quarterly>Transgender Studies Quarterly</a></h3>
                     <p>Edited by Paisley Currah &amp; Susan Stryker</p>
                 </li>
@@ -5078,9 +5064,9 @@
         </div>
 
     </div>
-</section><section id="glossary" class="projectSection glossarySection">
+</section><section id="glossary" class="projectSection glossarySection forwardColor">
     <h2 class="standalone">Glossary</h2>
-    <hr>
+    <hr class="black">
     <div id="glossarySlide" class="carousel slide " data-ride="carousel" data-interval="false">
 
         <div class="carousel-inner" role="listbox">
@@ -6162,9 +6148,9 @@
 
 
 
-</section><section class="galleryholder projectSection" id="team">
+</section><section class="galleryholder projectSection forwardColor" id="team">
     <h2 class="standalone">The Team</h2>
-    <hr>
+    <hr class="black">
     <div class="row">
         <div class="col-md-1 hidden-sm"></div>
         
@@ -6216,22 +6202,36 @@
 
     </div>
 </section><section class="reverseColor" id="footer">
+
     <div class="col-md-3">
-        <h2>Credits</h2>
-        <p>Copyright Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-    </div>
-    <div class="col-md-3">
-        <h2>Contact</h2>
+        <h2 class="alt">Contact</h2>
         <h4>Dr. Tamar Carroll</h4>
         <h4>Rochester Institute of Technology</h4>
+        <h4>tamar.carroll@rit.edu</h4>
         <h4><a href="http://www.tamarcarroll.com" target="_blank">TamarCarroll.com</a></h4>
-        <h4>585-123-4567</h4>
+
+
+    </div>
+    <div class="col-md-3 footerNav">
+
+        <h4 class="firstItem"><a href="#people" class="bottomLink">PEOPLE</a></h4>
+        <h4><a href="#topics" class="bottomLink">TOPICS</a></h4>
+        <h4><a href="#timeline" class="bottomLink">TIMELINE</a></h4>
+        <h4><a href="#analysis" class="bottomLink">IMPRESSIONS</a></h4>
+        <h4><a href="#resources" class="bottomLink">RESOURCES</a></h4>
+        <h4><a href="#glossary" class="bottomLink">GLOSSARY</a></h4>
+        <h4><a href="#team" class="bottomLink">THE TEAM</a></h4>
 
     </div>
     <div class="col-md-3">
-        <img src="media/dhss_logo.png">
+        <img src="media/TRS_Logo_Footer.png" style="max-width:300px">
 
     </div>
+    <div class="col-md-3">
+        <img class="firstItem" src="media/DHSS_Logo_Footer.png">
+        <img src="media/RIT_Logo_Footer.png" style="max-width:200px">
+    </div>
+
 </section>
     <script type="text/javascript" src="js/timelineSetup.js"></script>
 </body>

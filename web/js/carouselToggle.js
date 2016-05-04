@@ -1,8 +1,11 @@
 var personIds = ["metzler", "bills", "delaney", "barres", "waters", "otoole", "archived"];
 window.onload = function () {
 
-    console.log("in onload")
-    loadFramesWithin('#metzlerSlide');
+    //console.log("in onload")
+    $("#introSlide").children(".slideInfo").first().fadeIn("slow", function () {
+        // Animation complete
+    });
+    //loadFramesWithin('#metzlerSlide');
 
 }
 
@@ -17,7 +20,7 @@ function loadFramesWithin(divName) {
 }
 //carousel audio
 $('#metzlerSlide').on('slide', function (e) {
-    console.log("metzlerSlide clicked");
+    //console.log("metzlerSlide clicked");
     //var xx = $(this);
     //setTimeout(function () {
     //    xx.find('.active').next().find('.slab').slabText();

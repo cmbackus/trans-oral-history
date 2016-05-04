@@ -27,8 +27,13 @@
 
 .brand {
     font-family: 'Neutra Display Titling';
+    font-size: 18px;
+    min-width: 300px;
     color: #fff;
-    a {
+    a,
+    a:hover,
+    a:visited,
+    a:focus {
         color: #fff;
     }
 }

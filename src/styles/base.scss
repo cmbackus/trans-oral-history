@@ -10,6 +10,10 @@
        margin-top: 60px;
    }
    
+   h2 {
+       font-family: 'Neutra Text-Book Alt';
+   }
+   
    p {
        font-family: 'Nunito-Regular';
        font-size: 1.25em;
@@ -86,6 +90,12 @@
        }
    }
    
+   .forwardColor {
+       hr {
+           background-color: #000;
+       }
+   }
+   
    .projectSection {
        padding-top: 75px;
        min-height: 90%;
@@ -97,11 +107,13 @@
        hr {
            width: 100px;
            margin: auto;
-           background-color: black;
            height: 3px;
+           .white {
+               background-color: #ffffff;
+           }
        }
-       .reverseColor hr {
-           background-color: #ffffff;
+       h2 {
+           font-family: 'Neutra Text-Book Alt';
        }
        .row {
            max-width: 80%;
@@ -170,4 +182,22 @@
        h3 {
            font-family: 'Neutra Text-Book Alt';
        }
+   }
+   
+   .firstItem {
+       padding-top: 50px;
+   }
+   
+   .alt {
+       font-family: 'Neutra Text-Book Alt';
+   }
+   
+   .display {
+       font-family: 'Neutra Display Titling'! important;
+   }
+   
+   #projectTitle {
+       font-family: 'Neutra Display Titling';
+       font-size: 50pt;
+       text-align: center;
    }
