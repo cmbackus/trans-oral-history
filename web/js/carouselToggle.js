@@ -6,6 +6,12 @@ window.onload = function () {
         // Animation complete
     });
     //loadFramesWithin('#metzlerSlide');
+    $('.carousel').each(function () {
+        $(this).carousel({
+            pause: true
+            , interval: false
+        });
+    });
 
 }
 
@@ -58,7 +64,7 @@ $('#metzler').click(function () {
     //$('iframe').attr('src', $('iframe').attr('src'));
     console.log("metzler clicked")
     $('#metzlerSlide').carousel(0);
-    //loadFramesWithin('#metzlerSlide');
+    loadFramesWithin('#metzlerSlide');
     $('#metzlerSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -172,8 +178,22 @@ $('.readMoreBtn').click(function () {
 
 })
 $('.readLessBtn').click(function () {
-    console.log("in read more");
-    $(this).parents('.readMore').siblings('.readLess').removeClass("hideSection");
-    $(this).parents('.readMore').addClass("hideSection");
+        console.log("in read more");
+        $(this).parents('.readMore').siblings('.readLess').removeClass("hideSection");
+        $(this).parents('.readMore').addClass("hideSection");
 
-})
+    })
+    //close carousel on last slide
+function checkItem(slideId) {
+    var $this;
+    $this = $(slideId);
+    if ($("" + slideId + " .carousel-inner .item:first").hasClass("active")) {
+        $this.children(".left").hide();
+        $this.children(".right").show();
+    } else if ($("" + slideId + " .carousel-inner .item:last").hasClass("active")) {
+        $this.children(".right").hide();
+        $this.children(".left").show();
+    } else {
+        $this.children(".carousel-control").show();
+    }
+};

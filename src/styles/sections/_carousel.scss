@@ -1,27 +1,3 @@
-.carouselFull {
-    min-height: 90%;
-    //max-height: 900px;
-    //background-image:url("../../media/eastman.png");
-    // -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    h2,
-    h3 {
-        color: $dark;
-    }
-    hr {
-        @include hr($dark);
-    }
-    .infoclear {
-        background-color: rgba(0, 0, 0, 0);
-        color: $light;
-    }
-    .carousel-inner {
-        min-height: 600px;
-    }
-}
-
 .glossarySection,
 .timelineSection,
 .analysisSection {
@@ -99,7 +75,9 @@
     top: 100;
     left: 100;
     z-index: 4;
-    color: #eee;
+    color: #fff;
+    font-size: 40px;
+    opacity: .6;
 }
 
 .projectSection .close:hover {
@@ -116,9 +94,20 @@
     min-height: 90%;
     //max-height: 900px;
     position: relative;
-    background-size: 100% auto;
+    // background-size: 100% !important;
+    //background-size: 100% auto !important;
     //background-color: rgba(50,0,75, 0.6);
     //background-blend-mode: multiply;
+}
+
+.peopleCarouselSection .fullbg {
+    @media (max-width: 800px) {
+        //position: absolute;
+        //bottom: 0;
+        //left: 0;
+        //background-size: 100% auto !important;
+       // background: url("../media/JoAnne_Planetary.png") no-repeat center bottom fixed !important;
+    }
 }
 
 .moveDown {
