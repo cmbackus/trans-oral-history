@@ -99,7 +99,7 @@
     //max-height: 900px;
     position: relative;
     @media (min-width: 800px) {
-        background: fixed;
+        background-attachment: fixed !important;
         //background-size: 100% auto !important;
         // background: url("../media/JoAnne_Planetary.png") no-repeat center bottom fixed !important;
     }
@@ -107,12 +107,6 @@
     //background-size: 100% auto !important;
     //background-color: rgba(50,0,75, 0.6);
     //background-blend-mode: multiply;
-}
-
-.peopleCarouselSection .fullbg {}
-
-.testBackgroundImg {
-    background: url("../media/JoAnne_Planetary.png") no-repeat center bottom fixed
 }
 
 .moveDown {
