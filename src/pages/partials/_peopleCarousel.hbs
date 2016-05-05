@@ -12,38 +12,37 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             {{#each slides}} {{#is @index 0 }}
-            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center top fixed;)  ">
+            <div class="active item fullbg" style="background: url({{pic}}) no-repeat center top;)  ">
                 {{/is}} {{#isnt @index 0 }}
-                <div class="item fullbg" style="background: url({{pic}}) no-repeat center top fixed;)  ">
+                <div class="item fullbg" style="background: url({{pic}}) no-repeat center top;) ">
 
                     {{/isnt}}
 
                     <div class="infobox infoclear">
 
-                        <div class="inner">
-                            <div class="inner">
-                                <div class="slideInfo">
+                        <div class="inner ">
+                            <div class="slideInfo">
 
-                                    <div class="slideContent">
-                                        <h3><span class="name display">{{../name}} </span>  {{#isnt @index 0 }}
+                                <div class="slideContent">
+                                    <h3><span class="name display">{{../name}} </span>  {{#isnt @index 0 }}
                                     {{title}}{{/isnt}}
                                         </h3> {{#if iframe}}
-                                        <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>
+                                    <iframe class='carouselFrame' width='100%' height='166' scrolling='no' frameborder='no' data-url='{{iframe}}'></iframe>
+                                    {{/if}}
+
+                                    <div class="readLess">
+                                        <p>{{{hook}}}</p>
+                                        {{#if fullText}}
+                                        <div class="btn readMoreBtn">Read More</div>
+
+                                    </div>
+                                    <div class="readMore hideSection">
+                                        <p>{{{fullText}}}</p>
+                                        <div class="btn readLessBtn">Read Less</div>
                                         {{/if}}
-
-                                        <div class="readLess">
-                                            <p>{{{hook}}}</p>
-                                            {{#if fullText}}
-                                            <div class="btn readMoreBtn">Read More</div>
-
-                                        </div>
-                                        <div class="readMore hideSection">
-                                            <p>{{{fullText}}}</p>
-                                            <div class="btn readLessBtn">Read Less</div>
-                                            {{/if}}
-                                        </div>
                                     </div>
                                 </div>
+
 
                             </div>
 
