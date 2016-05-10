@@ -1,3 +1,8 @@
+section {
+    position: relative;
+    display: inline-block;
+}
+
 .glossarySection,
 .timelineSection,
 .analysisSection {
@@ -5,24 +10,29 @@
         background-color: rgba(0, 0, 0, 0);
         width: 60%;
         margin: auto;
-        min-height: 170px;
+        min-height: 150px;
+    }
+    .carousel-inner {
+        position: relative;
+        min-height: 100px;
     }
 }
 
 .glossaryLink {
-    max-height: 32px;
+    max-height: 40px;
+    font-size: 1.25em;
+    width: 100%;
+    white-space: nowrap;
     overflow: hidden;
-}
-
-.carousel-inner {
-    position: relative;
+    text-overflow: ellipsis;
 }
 
 .carouselSection {
     background-color: $purple-full;
     .slideInfo {
         width: 100%;
-        min-height: 100%;
+        height: 100%;
+        min-height: 800px;
         -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
@@ -35,7 +45,7 @@
         background-color: $purple-overlay;
         //background-blend-mode: multiply;
         color: #ffffff;
-        z-index: 2;
+        // z-index: 2;
         position: relative;
         iframe {
             width: 100%;
@@ -72,6 +82,7 @@
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right {
     top: 50% !important;
+    // z-index: 3 !important;
 }
 
 .projectSection .close {
@@ -98,7 +109,7 @@
     min-height: 90%;
     //max-height: 900px;
     position: relative;
-    @media (min-width: 800px) {
+    @media (min-width: 1026px) {
         background-attachment: fixed !important;
         //background-size: 100% auto !important;
         // background: url("../media/JoAnne_Planetary.png") no-repeat center bottom fixed !important;
