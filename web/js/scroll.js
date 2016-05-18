@@ -25,20 +25,31 @@ $(document).ready(function () {
         return false;
 
     })
+    $("#continue3").on("click", function () {
+
+        var currenthref = '#people';
+
+        $("body, html").animate({
+            "scrollTop": $(currenthref).offset().top
+        }, 1000);
+        return false;
+
+    })
     $('body').scrollspy({
-        target: '#navbar' - $("#navbar").height()
+        target: '#nav' - $("#nav").height()
     })
 
-    /*
-     $("#nav ul li a[href^='#']").click(function(){
-     console.log('present');
-     var link = $(this).attr('href');
-     var posi = $(link).offset().top;
-     $('html, body').animate({
-     scrollTop: $(posi).offset().top
-     }, 300, function(){   window.location.hash = hash;
-     });
-     });*/
+
+    $("#nav ul li a[href^='#']").click(function () {
+        console.log('present');
+        var link = $(this).attr('href');
+        var posi = $(link).offset().top;
+        $('html, body').animate({
+            scrollTop: $(posi).offset().top
+        }, 300, function () {
+            window.location.hash = hash;
+        });
+    });
     $('#introContinue').click(function () {
         var currenthref = "#people";
 

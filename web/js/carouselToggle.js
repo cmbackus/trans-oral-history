@@ -24,14 +24,24 @@ function loadFramesWithin(divName) {
     });
 
 }
-//general carousel toggle function
+//intro alt navigation
+$("#continue0").on('click', function () {
+    $('#introSlide').carousel(1);
+})
+$("#continue1").on('click', function () {
+    $('#introSlide').carousel(2);
+})
+$("#continue2").on('click', function () {
+        $('#introSlide').carousel(3);
+    })
+    //general carousel toggle function
 function toggleCarousel(name, section) {
     //$('iframe').attr('src', $('iframe').attr('src'));
     console.log(name + "clicked")
     $('#' + name + 'Slide').carousel(0);
     loadFramesWithin('#' + name + 'Slide');
     // $('#metzlerSlide').find(".slideInfo").hide().fadeIn(600); //.addClass("hidden"); //metzlerInfo0
-    $("#" + name + "Info0").hide().fadeIn(700);
+    $("#" + name + "Info0").hide().fadeIn(500);
     //$('#metzlerSlide').find(".metzlerInfo0").addClass("fadeInBG");
     $('#' + name + 'Section').removeClass("hideSection")
     $('#' + section).addClass("hideSection")
@@ -80,7 +90,7 @@ $('#metzler').click(function () {
     $('#metzlerSlide').carousel(0);
     loadFramesWithin('#metzlerSlide');
     // $('#metzlerSlide').find(".slideInfo").hide().fadeIn(600); //.addClass("hidden"); //metzlerInfo0
-    $("#metzlerInfo0").hide().fadeIn(700);
+    $("#metzlerInfo0").hide().fadeIn(500);
     //$('#metzlerSlide').find(".metzlerInfo0").addClass("fadeInBG");
     $('#metzlerSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
@@ -91,7 +101,7 @@ $('#bills').click(function () {
     console.log("metzler clicked")
     $('#billsSlide').carousel(0);
     loadFramesWithin('#billsSlide');
-    $("#billsInfo0").hide().fadeIn(700);
+    $("#billsInfo0").hide().fadeIn(500);
     $('#billsSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -99,7 +109,7 @@ $('#bills').click(function () {
 $('#barres').click(function () {
     $('#barresSlide').carousel(0);
     loadFramesWithin('#barresSlide');
-    $("#barresInfo0").hide().fadeIn(700);
+    $("#barresInfo0").hide().fadeIn(500);
     $('#barresSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -107,7 +117,7 @@ $('#barres').click(function () {
 $('#delaney').click(function () {
     $('#delaneySlide').carousel(0);
     loadFramesWithin('#delaneySlide');
-    $("#delaneyInfo0").hide().fadeIn(700);
+    $("#delaneyInfo0").hide().fadeIn(500);
     $('#delaneySection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -115,7 +125,7 @@ $('#delaney').click(function () {
 $('#waters').click(function () {
     $('#watersSlide').carousel(0);
     loadFramesWithin('#watersSlide');
-    $("#watersInfo0").hide().fadeIn(700);
+    $("#watersInfo0").hide().fadeIn(500);
     $('#watersSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -123,7 +133,7 @@ $('#waters').click(function () {
 $('#otoole').click(function () {
     $('#otooleSlide').carousel(0);
     loadFramesWithin('#otooleSlide');
-    $("#otooleInfo0").hide().fadeIn(700);
+    $("#otooleInfo0").hide().fadeIn(500);
     $('#otooleSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 
@@ -131,7 +141,7 @@ $('#otoole').click(function () {
 $('#archived').click(function () {
     $('#archivedSlide').carousel(0);
     //loadFramesWithin('#archivedSlide');
-    $("#archivedInfo0").hide().fadeIn(700);
+    $("#archivedInfo0").hide().fadeIn(500);
     $('#archivedSection').removeClass("hideSection")
     $('#people').addClass("hideSection")
 

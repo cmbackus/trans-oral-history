@@ -278,8 +278,9 @@
       height: '300px'
       , max: '2019-01-20'
       , min: '1948-01-01'
-      , zoomMin: 8640000000
+      , zoomMin: 86400000000
       , zoomMax: 864000000000
+      , clickToUse: true
   };
 
   // Create a Timeline
