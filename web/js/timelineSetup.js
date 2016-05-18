@@ -285,8 +285,14 @@
   // Create a Timeline
   var timeline = new vis.Timeline(container, items, options);
   timeline.on('select', function (properties) {
-      console.log(this);
-      console.log(properties.items[0]);
+      //console.log(this);
+      //console.log(properties.items[0]);
       indexNum = properties.items[0]
       $('#timelineSlide').carousel(indexNum - 1);
   });
+  $('#timelineSlide').on('slid.bs.carousel', function () {
+      console.log("in slide")
+      var currentIndex = $('#timelineSlide .active').index() + 1;
+      timeline.setSelection(currentIndex);
+      timeline.focus(currentIndex);
+  })
