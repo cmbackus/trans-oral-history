@@ -1,13 +1,15 @@
 {{#each persons.people}}
-<section id="{{id}}Section" class="projectSection carouselSection peopleCarouselSection hideSection">
+<section id="{{id}}Section" class="projectSection carouselSection peopleCarouselSection ">
 
     <div id="{{id}}Slide" class="carousel slide " data-ride="carousel" data-interval="false">
-        <!-- Indicators 
+        <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#{{id}}Slide" data-slide-to="0" class="active"></li>
-            <li data-target="#{{id}}Slide" data-slide-to="1"></li>
-            <li data-target="#{{id}}Slide" data-slide-to="2"></li>
-        </ol>-->
+            {{#each slides}} {{#is @index 0 }}
+            <li data-target="#{{id}}Slide" data-slide-to="{{index}}" class="active"></li>
+            {{/is}} {{#isnt @index 0 }}
+            <li data-target="#{{id}}Slide" data-slide-to="{{index}}"></li>
+            {{/isnt}} {{/each}}
+        </ol>
         <span class="close glyphicon glyphicon-remove personClose"></span>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">

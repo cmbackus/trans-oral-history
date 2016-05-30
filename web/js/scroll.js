@@ -42,12 +42,11 @@ $(document).ready(function () {
 
     $("#nav ul li a[href^='#']").click(function () {
         console.log('present');
-        var link = $(this).attr('href');
-        var posi = $(link).offset().top;
+        var currenthref = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(posi).offset().top
+            scrollTop: $(currenthref).offset().top
         }, 300, function () {
-            window.location.hash = hash;
+            // window.location.hash = hash;
         });
     });
     $('#introContinue').click(function () {

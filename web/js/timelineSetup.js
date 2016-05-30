@@ -89,7 +89,7 @@
           , start: '1987-11-01'
             }, {
           id: 22
-          , content: 'September 1989 Crossdresser’s Network'
+          , content: 'September 1989 CD Network'
           , start: '1989-09-01'
             }, {
           id: 23

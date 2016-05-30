@@ -1,7 +1,14 @@
 <section id="analysis" class="projectSection carouselSection">
 
     <div id="analysisSlide" class="carousel slide " data-ride="carousel" data-interval="false">
-
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {{#each index.analysis}} {{#is @index 0 }}
+            <li data-target="#{{id}}Slide" data-slide-to="{{index}}" class="active"></li>
+            {{/is}} {{#isnt @index 0 }}
+            <li data-target="#{{id}}Slide" data-slide-to="{{index}}"></li>
+            {{/isnt}} {{/each}}
+        </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             {{#each index.analysis}} {{#is @index 0 }}
@@ -23,6 +30,8 @@
                                     <h4>{{subtitle}}</h4> {{/is}}
 
                                     <p>{{{hook}}}</p>
+                                    {{#isnt @index 3}}
+                                    <a id="continueImp{{@index}}" class=" btn btn-lg btn-default moveDown">Continue</a> {{/isnt}}
 
 
                                 </div>
